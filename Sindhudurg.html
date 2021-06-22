@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sindhudurg</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="beed.css">
+    <link rel ="shortcut icon" href = "favicon.png" type ="image/x-icon">
+</head>
+<body>
+    <section class="header" style="background-image: url(sindhudurg/sindhubg.jpg);">
+        <nav>
+          <div class="logo">
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html"><img src="logo 3.png" width="600" height="400" size="200"></a>
+          </div>
+          
+           <div class="nav-links">
+              <ul>
+                <li><a href="#destinationsdiv">Destinations</a></li>
+                <li><a href="#cuisinediv">Cuisine</a></li>
+                <li><a href="#shoppingdiv">Shopping attactions</a></li>
+              </ul>
+          </div>
+        </nav>
+        <div class="text-box">
+          <h1>SINDHUDURG</h1> 
+           <p> " District of GAZALI ! "</p>
+        </div>
+   </section>
+        <section class="information">
+           <p> Sindhudurg is an administrative district in the state of Maharashtra in India, which was carved out of the erstwhile Ratnagiri District. The district headquarters are located at Oros. The district occupies an area of 5,207 km2 and has a population of 849,651 of which 12.59% were urban (as of 2011). As of 2011 it is the least populous district of Maharashtra (out of 36)<span id="dots">...</span><span id="more">
+
+            The word 'Konkan' is of Indian origin and of considerable antiquity, though the origin of the name has never been sufficiently explained. The seven kingdoms of the Konkan of mythology are mentioned in the History of Kashmir and are said to have included nearly the whole west coast of India. The Pandavas are said to have passed through this region in the 13th year of their exile and had settled in this area for some time. The Raja of this region Veerat Ray had accompanied them in the famous war at Kurukshetra with the Kauravas.
+
+In the second century A.D. the Maurya empire annexed the Konkan coast. In the middle of the sixth century, kings of the Maurya and Nala dynasties appear to have been ruling in the Konkan. The district of Ratnagiri was under the Silahars and the capital of their kingdom was probably Goa and later it may have been transferred to a more central place in the vicinity of Ratnagiri or Kharepatan. Chandrapur was one of the most ancient towns in Konkan, probably founded by Chandraditya, son of the Chalukya king Pulakeshin II.
+
+The 16th century saw the advent and rise of Portuguese power on the west coast of India and Sindhudurg was no exception. The sultan lost hold on the district in 1675 with the rise of Shivaji leading finally into the hands of Marathas. Marathas continued to the district till 1817 i.e. when the struggle between the British and the Peshvas came to an end and the whole of Konkan was transferred to the British.</span> </p>
+        </section>
+        <button type="button" id="read" onclick="read()">Read more</button>
+          <script type="text/javascript">
+           var j=0;
+           function read(){
+              if(!j){
+                 document.getElementById("more").style.
+                 display = "inline";
+                 document.getElementById("dots").style.
+                 display  = "none";
+                 document.getElementById("read").innerHTML=
+                 "Read less";
+                 j=2;
+            }
+              else{
+                  document.getElementById("more").style.
+                  display = "none";
+                  document.getElementById("dots").style.
+                  display  = "inline";
+                  document.getElementById("read").innerHTML=
+                  "Read more";
+                  j=2;
+            }
+         }
+       </script>
+       <!--this is code for population and other area literacy rate-->
+       <section class="population">
+       <div class="container1">
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="populationicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>POPULATION</h3>
+                        <h4>8.69 Lakhs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <br>    
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="areaicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>AREA</h3>
+                        <h4>5,207 km²</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>     
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="literacyicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>LITERACY RATE</h3>
+                        <h4>85.56%. </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--end-->
+<!--this is code for destination slider-->
+<section class="taglineofdestination">
+    <img src="destinationslogo.png" width="150" height="150" sizes="50" >
+     <h3> Here are the destinations for you !</h3>
+</section> 
+<section class="destinations" id="destinationsdiv">
+    <div class="tabs">
+        <div class="start">
+            <div class="active">
+                <i class="fa fa-code"></i>Sindhudurg Fort
+            </div>
+            <div>
+                <i class="fa fa-pencil-square"></i>Devbagh Beach
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>Rameshwar Temple
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Vengurla Beach
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Marine Sanctuary
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Vijaydurg Fort
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Sawantwadi Palace
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Terekhol Fort
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>
+            </div>
+        </div>
+        <div class="tab-indicator"></div>
+        <div class="tab-content">
+            <div class="active">
+                <i class="fa fa-code"></i>
+                <h3>Sindhudurg Fort</h3>
+                <br>
+                <h5>Location:  Sindhudurg, Malvan, Maharashtra</h5>
+                <h5>Way to reach:  It is 90 kilometer from Sawantwadi city, a major tourist spot in Sidhudurg. From Oros it hardly takes 2.5 hours’ drive.</h5>
+                <h5>Near by attractions: Bhogve Beach, Chivala Beach.</h5>
+                <p>Sindhudurg Fort is a historical fort that occupies an island in the Arabian Sea, just off the coast of Maharashtra in Western India. The fort was built by Shivaji. The fortress lies on the shore of Malvan town of Sindhudurg District in the Konkan region of Maharashtra, 450 kilometres (280 mi) south of Mumbai. It is a protected monument.</p>
+                <p> Sindhudurg island-fort was built by Shivaji, the 17th-century ruler of Maratha Empire. Its main objective was to counter the rising influence of foreign (English, Dutch, French and Portuguese) merchants and to curb the rise of Siddis of Janjira. Construction was supervised by Hiroji Indulkar in 1664. The fort was built on a small island known as the Khurte island.
+                </p>
+                <p>Shivaji brought 200 Vaddera people for building this fort. Over 4,000 pounds of lead were used in the casting and foundation stones were firmly laid down. Construction started on 25 November 1664. Built over a period of three years (1664-1667), the sea fort is spread over 48 acres, with a two-mile (3 km) long rampart, and walls that are 30 feet (9.1 m) high and 12 feet (3.7 m) thick. The massive walls were designed to serve as a deterrent to approaching enemies and to the waves and tides of the Arabian Sea. The main entrance is concealed in such a way that no one can pinpoint it from outside.
+
+                    At a time when traveling by sea was banned by scriptures, this construction on an island represents the revolutionary mindset of its engineer. A remain of an iron mould can be seen.</p>
+                <i class="images">
+                    <img src="sindhudurg/sindhfort1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="sindhudurg/sindhfort2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="sindhu.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-pencil-square" id="squarediv"></i>
+                <h3>Devabag Beach</h3>
+                <br>
+                <h5>Location: (12km south of Malvan) Devbagh beach is adjacent beach to Tarkarli beach.</h5>
+                <h5>Way to reach: Devbagh is located in Malvan City. Reaching devbagh is very easy, there are so many ways to reach devbagh. </h5>
+                <h5>Near by attractions: Sindhudurg Fort, Malvan Beach house </h5>
+                <p>Devbagh Beach Maharashtra Hop, jump and skip away from Malva's iconic Tarkali Beach, Devbagh Beach is beautiful, and hardly explored. Besides, it's just the perfect place to bask in sun or enjoy a close encounter with the wave rushing to hit the white sands. The beach marks the confluence of the Karli river, which is locally Devbaug Sangam.
+                </p>
+                <br>
+                <p>Devbagh Beach is located in the Sindhudurg district of the Maharashtra state, and it is situated 13 km away from the main city Malvan. Devbagh is counted as one of the beautiful beaches across India located near Tarkarli beach. Devbagh Beach even known by the name the Golden Sand Beach.</p>
+                <br>
+                <br>
+                 <i class="images">
+                     <img src="ratnagiri/aarewarebeach1.jpg" width="300" height="200" sizes="50">
+                  <br><br>
+                    <img src="ratnagiri/aarewarebeach2.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                    <img src="ratnagiri/aaarewarebeach3.jpg" width="300" height="200" sizes="50">
+                 </i>
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>
+                <h3>Rameshwar Temple</h3>
+                <br>
+                <h5>Location:  Shri Dev Rameshwar Temple is located in village Rameshwar Wadi in Devgad taluka of Sindhudurg District, Maharashtra, India. </h5>
+                <h5>Way to reach: The only access to the temple is a small pathway through the forest land. The temple is 34 km away from Kankavli city.</h5>
+                <h5>Near by attractions: Sindhudurg Fort, Kanakawali.</h5>
+                <p>Shri Dev Rameshwar Temple is located in village Rameshwar Wadi in Devgad taluka of Sindhudurg District, Maharashtra, India. This temple is dedicated to the Hindu deity Shiva. It is a historic temple built in 16th century. Its chief interest is the approach about 250 yards long, cut through rock fifty feet deep. The idol, a four-armed figure seated on a bull, is of solid silver said to weigh a hundred kilograms and is in good condition at present.</p>
+                
+                <p>The architectural patterns of the temple building shows that it has been expanded at least three times from its establishment until now. In the early 18th century, Sarkhel Kanhoji Angre built a quadrangular inner shrine made up of finely hewn stones, also called as the Gabhara around the original place of Shiva's pindi. This is the main room of the temple which contains a shivling or pindi at its centre. Later, in the mid-18th century, Sardar Sambhaji Angre and Sankhoji Angre built a Mandap in front of the gabhara. This mandap consisted of four huge wooden pillars bearing beautiful carvings all over them. They also built a Pradakshina Marg around the gabhara. The entire area was enclosed with walls to form a small temple consisting of the gabhara, the mandap and pradakshina Marg. The entire temple building covers an area of 4,025 sq ft. Stone tiles were placed in the area outside the main temple building covering an area of about 15,000 sq ft. It was in this era that the temple was provided with two new gates on the western and southern side.</p>
+                
+                <p>A fair is held for six days in the month of Magha every year which is attended by about 5,000 people from nearby villages and towns. The fair starts 5 days before the day of worship. On the Mahashivratri day, devotees observe fast and stay awake all night. Mahashivratri marks the night when Shiva performed the 'Tandava'. It is also believed that on this day Shiva was married to Parvati Ma. On this day Shiva devotees observe fast and offer fruits, flowers and Bael leaves on Shiva Linga.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/jaigad.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/jaigad1.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/jaigad2.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Vengurla Beach</h3>
+                <br>
+                <h5>Location: Vengurla, Malvan, Maharashtra</h5>
+                <h5>Way to reach: To reach Vengurla Beach from the rail station, one can take a bus or auto-rickshaw. Kudal on Konkan Railway is also a nearby railway station to Vengurla. Saagareshwar Beach, Nivati Beach</h5>
+                <h5>Near by attractions: Korlai Fort.</h5>
+                <p>
+                    Vengurla is an alluring beach town, located on the Konkan coast in the southern most district of Sindhudurg in Maharashtra. Just 110 km north of Goa, Vengurla is popular for its long stretch of clear white sand beaches ringed by high mountains.
+                    
+                    One of the busiest ports during the reign of Maratha King Chhatrapati Shivaji, the port was a busy trade center between the 16th and 18th century. The existence of huge warehouses, trading centers and markets are pointers to its rich mercantile past. Between 1664 and 1812, the town was twice burned to ground. The residue of the attacks is still seen on the Vengurla rocks, and is now popularly known as Burnt Island. The Burnt Island is group of three large rocks that were once an important navigation point for seafarers. At present, the rocks act as a breeding site for a rare bird, the Indian Swiftlet.</p>
+                <p>Vengurla boasts of five stunning beaches. Nivati beach, Shiroda beach, Mochemad beach, Sagareshwar beach, and Vayangani beach. Of these, Nivati and Shiroda beaches are highly recommended as they are blessed with crystal clear water and offer great opportunities for water sports.
+
+                    Vengurla is also famous for its temples like the Mauli Devi Temple, Sateri Devi Temple and Shri Vithoda Temple.
+                    
+                    Though not a shopping destination, roasted cashew nuts and sweets made from cashew are worth trying and are found in shops all around the town.</p>
+                
+                <i class="images">
+                    <img src="ratnagiri/govalkot1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/govalkot2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/govalkot3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Marine Sanctuary</h3>
+                <h5>Location: Malvan, Sindhudurg, Maharashtra</h5>
+                <h5>Way to reach: The nearest airport to reach Malvan Marine Sanctuary is situated at Goa, at a distance of 145 kilometres. Kudal, 28 kilometres away, serves as the nearest railway station. From cities like Mumbai, Panaji, Kolhapur and Pune.</h5>
+                <h5>Near by attractions: Sateri Devi Temple, Vengurla Beach</h5>
+
+                <p>The only marine sanctuary in the state, Malvan Marine Sanctuary was established in 1987 to preserve this biologically rich coastal region. The core zone of the sanctuary expands over an area of 27 square kilometres and offers an unexploited environment for marine flora and fauna including coral, Pearl oysters, seaweed, molluscs and over 30 species of fish.__</p>
+                <br>
+                <p>The Malvan Marine Sanctuary is extremely rich in coral and marine life. The marine flora and fauna here pertain to sea anemones, mollusks, polychaetes, pearl oyster, corals, seaweed and mangroves. Sprawled over an area of 29.22 square kilometers, the Malvan Marine Sanctuary, Sindhudurg, Maharashtra can be visited any time in the year.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/mandavibeach6.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/mandavibeach2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/mandavibeach1.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Vijaydurg Fort</h3>
+                <h5>Location: Vijaydurg fort is located at the tip of the peninsular region of Vijaydurg in Devgad Taluka, of district Sindhudurg. </h5>
+                <h5>Way to reach: Rajapur road (63 km away) is the nearest railway station to reach Vijaydurg fort. Kankavli is the alternative railway station to the fort. It lies on the Konkan Railway Route and is 77 km away from the fort.</h5>
+                <h5>Near by attractions: There are lots of Beaches near Vijaydurg Fort.</h5>
+
+               <p>Vijaydurg (sometimes written as Viziadurg), the oldest fort on the Sindhudurg coast, was constructed during the regime of Raja Bhoja II of the Shilahar dynasty (construction period 1193-1205) and restructured by Shivaji.<br>
+
+                Earlier, the fort encompassed an area of 5 acres (1 acre = 4840 square yards or 4047 square metres) and was surrounded by sea on all four sides. Over the years the eastern trench was reclaimed and a road constructed thereon. Presently the area of fort is about 17 acres and is surrounded by the Arabian Sea on three sides. Shivaji extended the area of the fort by constructing three walls on the eastern side, each 36 metres high. He also constructed 20 bastions.<br>
+                
+                According to legend, this is one of only two Maratha forts where Shivaji personally hoisted the saffron flag. The other fort is Torna.
+                
+                Vijaydurg Fort was called the "Eastern Gibraltar", as it was virtually impregnable.[4] Its locational advantages include the 40 km long Waghotan/Kharepatan creek. Large vessels cannot enter the shallow water of this creek. Also, Maratha warships could be anchored in this creek and yet remain invisible from the sea. It is a protected monument.</p>
+                <p>After the death of Kanhoji Angre, there were two short reigns by Sarfoji and Sambhaji. The two brothers Manaji and Tulaji started fighting for the Angre throne. Nanasaheb Peshwe had intervened in the disputes between Manaji and Tulaji. This created two spheres of influence, Manaji in the north at Kulaba and Tulaji in the south at Vijaydurg. Tulaji Angre was favored by Shahu and was appointed as Sarkhel (Admiral) of the Maratha Navy. This was against the will of Nanasaheb Peshwa.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/mandavibeach6.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/mandavibeach2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/mandavibeach1.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Sawantwadi Palace</h3>
+                <h5>Location: Ganapatipule is approximately 375 km. south of Mumbai, along the Konkan Coast. </h5>
+                <h5>Way to reach: Sawantwadi Railway Station, also you can reach ther by using Mumbai-Goa highway.</h5>
+                <h5>Near by attractions: Moti Talao</h5>
+                <p>Sawantwadi Palace at Sawantwadi. The Royal Palace of Sawantwadi is one of the major tourist attractions of the Sindhudurg District. Built by Khem Sawant Bhonsle, the ruler of this region during 1755-1803. It is located in Middle of Sawantwadi city.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/ganapati.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/ganapatipulemandir.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/ganapatipule1.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Terekhol Fort</h3>
+                <h5>Location: Near Sawantwadi, Properly in Goa.</h5>
+                <h5>Way to reach: Mumai-Goa Highway, one can also try option of plane.</h5>
+                <h5>Near by attractions: Swantwadi Palace.</h5>
+                <p>Fort Tiracol, is a Portuguese era fort near the village of Tiracol, in the Pernem sub-division of Goa. Located on the northern tip of Goa at the northern mouth of the Tiracol River. Fort Tiracol can be reached by a ferry from Querim, 42 km North of Panjim.</p>
+                <p>The Terekhol Fort was won by the Portuguese in 1746 and it became an important part of Portuguese maritime defences. The Fort was rebuilt in 1764 by the Portuguese viceroy Dom Pedro Miguel de Almeida. The Fort site chosen was a hillock on the right bank of the river, which gave a commanding view of the Arabian Sea. </p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/pawankhind1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/pawankhind2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/pawankhind3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                
+                   
+                
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                
+                </i>
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+      function _class(name)
+   {
+return document.getElementsByClassName(name);
+   }
+
+let tabPanes = _class("start")[0].getElementsByTagName("div");
+
+for(let i=0;i<tabPanes.length;i++)
+{
+tabPanes[i].addEventListener("click",function()
+{
+    _class("start")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+    tabPanes[i].classList.add("active");
+
+    _class("tab-indicator")[0].style.top = 'clac(80px + ${i*5}px';
+
+    _class("tab-content")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+
+    _class("tab-content")[0].getElementsByTagName("div")
+    [i].classList.add("active");
+});
+}
+    </script>
+    <!--ended-->
+    <!--this code is for cuisine section-->
+     <section class="taglineofcuisine">
+        <img src="taglinelogoofcuisine.jpg" width="150" height="150" sizes="50">
+       <h3>Here is the cuisine of the district</h3>
+       </section>
+        <section class="bodyofcard" id="cuisinediv">
+         <div class="container2">
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/phanas.jpg" width="600" height="250"  alt="">
+              </div>
+              <div class="content">
+                  <h2>Jackfruit-Phanas</h2>
+                  <p>In Ratnagiri there are two types of jackfruits, Kapa and Baraka. you can also try Phanas poli and fried gare.<p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/ambawadi.jpg"width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Mango-barfi</h2>
+                  <p>Amba Poli is a traditional Mango Sweet from Konkan. It is made with Alphonso Mango Pulp and sugar. Amba Wadi. Amba Vadi is made from Alphonso mango Mawa </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="matanwade.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Matanwade</h2>
+                  <p>These are the special type of wade, that can eat with mutton and chicken. Ratnagiri is famous for it. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/modak.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Malawani Khaja</h2>
+                  <p> Best sweet dish that you will get to eat in Malvan. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/bangada fish.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Bangada-Fry</h2>
+                  <p> Bangada-Fry is the best seafood that you will get to eat in Ratnagiri. Taste of this sea food is amazing. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/hapus.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Alphanso</h2>
+                  <p>Alphanso mangoes are famous in Ratnagiri. Alphanso in devagad are exported in foreign countries. </p>
+              </div>
+          </div>
+          </div>
+  </section>
+  <!--ended-->
+  <!--this code is for shopping attractions-->
+     <section class="taglineofshopping">
+       <img src="taglineofshopping.png" width="150" height="150" sizes="50">
+       <h3>Lets do some shopping from the district !</h3>
+    </section>
+   <section class="shoppingattractions" id="shoppingdiv">
+      <div class="container4"> 
+          <div class="box1">
+              <img src="shopback.jpg" width="600" height="100" alt="">
+             <div class="content1">
+                <h4>Kohinoor City Centre Ratnagiri</h4>
+                <p> Address: Jain & Jain Construction Co 1754-K, Athawada Bazar 80ft Highway, Ratnagiri, 415612.
+                </p>
+                <p>Timing: 9am to 8pm.
+                </p>
+             </div>
+           </div>
+          <div class="box1">
+              <img src="shop2.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Mahalaxmi Mini Mall</h4>
+                <p>Address: 24, 25, 26, parasmani K C Jain nagar, Kolhapur - Ratnagiri Rd, Maruti Mandir, Ratnagiri.
+                </p>
+                <p> Timing: 10am to 9pm.
+                </p> 
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop3.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Times Mall</h4>
+                <p>Address: डाॅ. बा, ना. सावंत मार्ग, Tilak Ali, Ratnagiri, Maharashtra 415612.
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p> 
+              </div>
+            </div>
+  </div>
+         <div class="container5">
+           <div class="box1">
+              <img src="shop4.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Arihant Mall</h4>
+                <p>Address: Abhyudhya Nagar, Ratnagiri, Maharashtra 415612.
+                </p>
+                <p>Timing: 8am to 10pm.
+                </p>
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop5.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Siddhagiri Product Retailer Ratnagiri</h4>
+                <p>Address: Police Head Quarters, Ratnagiri, Maharashtra 415612.
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p>
+              </div>
+            </div>
+           <div class="box1">
+              <img src="lakshmiroad.jpg" width="600" height="200" alt="">
+               <div class="content1">
+                <h4>Samartha Vastu Bhandar</h4>
+                <p>Address: Ratnagiri, Maharashtra 415639.
+                </p>
+                <p>Timing: 10am to 8.30pm.
+                </p> 
+              </div>
+           </div>
+         </div>
+   </section>
+   <!--ended-->
+   <!--this code is for other districts-->
+    <section class="lookfor">
+        <img src="searchicon.png" width="200" height="150" sizes="50">
+      <h3>You may also look for other districts !</h3>
+    </section>
+     <section class="otherdistricts">
+         <div class="container7">
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>01</h2>
+                      <h3>Satara</h3>
+                      <p>Satara is a city located in the Satara District of Maharashtra state of India, near the confluence of the river Krishna and its tributary, the Venna. The city is known as a Soldier's city as well as Pensioner's city. Famous for its Kandi Pedhe, tasty sweet item !</p>
+                      <p><h4>It is 194 KM from Sindhudurg</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/satara.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+           <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>02</h2>
+                      <h3>Kolhapur</h3>
+                      <p>Kolhapur, is a Historic and ancient holy city in Maharashtra, India. Situated on the banks of river Panchganga.  Prior to Indian independence, Kolhapur was a 19 gun salute princely state ruled by the Bhosale Chhatrapati of the Maratha Empire.</p>
+                      <p><h4>It is 132 KM from Sindhudurg</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kolhapur.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>03</h2>
+                      <h3>Ratnagiri</h3>
+                      <p> Ratnagiri District is a district in the state of Maharashtra, India.  The district is 11.33% urban. The district is bounded by the Arabian Sea to the west, Sindhudurg district to the south, Raigad district to the north and Satara, Sangli and Kolhapur districts to the east. </p>
+                      <p><h4>It is 140 KM from Sindhudurg</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/ratnagiri.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </section>
+     <!--ended-->
+   <!--this is code for handles-->
+              <section class="handles1">
+                <img src="internet.png" width="100" height="100" sizes="50">
+                <h5>Connect with us on our Social Handles!</h5>
+                </section>
+            <div class="handles">
+              <a href="https://instagram.com/mhtravel2121?igshid=1ud8vgc9lmbsp"><img src="instagram.png" width="200" height="200"></a>
+              <a href="https://www.facebook.com/MH-Travel-102684151953207/"><img src="facebook.png" width="200" height="200" ></a>
+              <a href="https://www.youtube.com/watch?v=BHzAPZEsYHU&t=92s"><img src="youtube.png" width="200" height="200"></a>
+              <a href="https://chat.whatsapp.com/CtJ0qi4FuyNCQ6U1hCcYj1"><img src="whatsapp.png" width="200" height="200"></a>
+              
+         </div> 
+             </section>
+         <section class="footer">
+           <div class="row">
+              <div class="col0">
+                <img src="logo 3.png" width="300" height="230">
+                
+                <h4>Magnificient Maharashtra</h4>
+              </div>
+               
+               
+               <div class="col1">
+                   <h3>Explore divisions</h3>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html">Kokan division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nashik.html">Nashik division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/amaravatidivision.html">Amaravati division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html">Aurangabad division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nagpurdivision.html">Nagpur division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/punedivision.html">Pune division</a>
+               </div>
+               <div class="col2">
+                   <h3>Other websites links</h3>
+                   <br>
+                   <a href="https://www.india.gov.in
+                   ">Government of India</a>
+                   <br>
+                   <a href="https://www.maharashtra.gov.in/1125/home">Government of Mharashtra</a>
+                   <br>
+                   <a href="https://www.tourism-of-india.com/maharashtra">Tourism in Maharashtra</a>
+                   <br>
+                   <a href="https://www.maharashtratourism.gov.in">Maharashtra tourism</a>
+                   <br>
+                   <a href="www.mahapolice.gov.in
+                   ">Maharashtra state Police</a>
+                   <br>
+                   <a href="https://msrtc.mahaonline.gov.in">MSRTC</a>
+                   
+               </div>
+               <div class="col3">
+                   <h3>Explore India</h3>
+                   <br>
+                   <a href="https://www.gujarattourism.com">Gujarat tourism</a>
+                   <br>
+                   <a href="https://www.goa-tourism.com
+                   ">Goa tourism</a>
+                   <br>
+                   <a href="https://www.karnatakatourism.org
+                   ">Karnatak tourism</a>
+                   <br>
+                   <a href="https://tourism.ap.gov.in">Andhrapradesh tourism</a>
+                   <br>
+                   <a href="https://www.mptourism.com
+                   ">Madhyapradesh tourism</a>
+                   <br>
+                   <a href="https://chhattisgarhtourism.in
+                   ">Chhatisgad tourism</a>
+     
+               </div>
+               
+           </div>
+           <h1>&copy; copyright @ 2021 by <span> MH Travel</span></h1>
+       </section>
+</bod>
+</html>

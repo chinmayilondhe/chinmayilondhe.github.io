@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MH Travel</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap " rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel ="shortcut icon" href = "favicon.png" type ="image/x-icon">
+<style>
+    * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    
+    
+}
+body{
+    
+    background-image: url("final.jpg");
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}
+nav{
+width: 100%;
+height: 15vh;
+background:rgba(0,0,0,0.2);
+
+display: flex;justify-content: space-between;
+align-items: center;text-transform: uppercase;
+background-image: url(logo\ 3.png);
+}
+nav .logo{
+    
+    align-content: flex-start;
+    shape-image-threshold: initial;
+    size: 50px;
+    
+    display: block;
+    
+}
+nav .menu{
+    width: 20%;
+    display: flex; justify-content: space-around;
+}
+nav .menu a{
+width: 50%;
+text-decoration: none;color: white;
+font-weight: bold;
+
+}
+nav .menu a:hover{
+    color: rgb(62, 220, 245);
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;justify-content: center;align-items: center;
+    text-align: center;color: white;
+}
+section h1{
+    font-size:50px; 
+    font-weight: 500;letter-spacing: 2px;
+    font-family:'Abril Fatface',cursive ;
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Merriweather',serif;
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;text-shadow: 1px 1px 1px black;
+    font-family: 'Redressed', cursive;
+
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+outline: none;
+text-transform: uppercase;font-size: 13px;
+font-weight: 500;
+text-decoration: none;
+letter-spacing: 1px;
+transition: all .5s ease;
+}
+section .button1{
+    background: #fff;
+    color: #000;
+    font-family: cursive;
+    
+}
+.button1:hover{
+    
+    color: rgb(62, 220, 245);
+    background-color: royalblue;
+
+}
+section .button2{
+    background-color: #ffff;
+    color:black;
+    font-family: cursive;
+}
+.button2:hover{
+
+    color:  rgb(62, 220, 245);
+    background-color: royalblue;
+
+}
+.change_content:after{
+        content: '';
+        animation: changetext 10s infinite linear;
+        color: rgb(17, 198, 238);
+        font-family: cursive;
+        size: 200px;
+ }
+ @keyframes changetext{
+    0%{content:"PUNE";}
+    20%{content:"MUMBAI";}
+    40%{content:"AURANGABAD";}
+    60%{content:"SOLAPUR";}
+    80%{content:"KOLHAPUR";}
+    100%{content:"KONKAN";}
+
+
+}
+
+ h6 {
+    font-size: large;
+    font-family: cursive;
+    font-weight: 200;
+    
+    size: 70px;
+}
+p {
+    padding-top: 2%;
+}
+.footer{
+        background: #333;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        }
+        .footer h1{
+            font-size: 2rem;
+            margin: 0;
+            padding: 2rem 0;
+            text-align: center;
+            color: white;
+        }
+        .footer span{
+            color: yellow;
+        }
+        .icons a{
+        font-size: 2rem;
+        margin: 2rem 1rem;
+        color: #fff;
+        }
+        .icons a:hover{
+            color: yellow;
+        }
+        .col{
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .col0{
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            margin: 1rem 0;
+            
+        }
+        
+       .col0  h4 {
+            color: darkorange;
+            padding-top: -6%
+            
+        }
+        .col0 a {
+            color: #fff;
+        }
+        .col0 a:hover {
+            color: darkorange ;
+        }
+        .col1{
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+           padding-top: 2%;
+            padding-left: 4%;
+        }
+        .col1 h3{
+            font-size: 1.2rem;
+            color:lightskyblue;
+            padding-bottom: 2px;
+        }
+        .col1 a{
+            color:white;
+            font-size: 1 rem;
+        }
+        .col1 a:hover {
+            color: #ffaf00;
+            font-style: italic;
+        }
+        .col2{
+          
+            display: flex;
+            flex-flow: column;
+           padding-top: 2%;
+        }
+        .col2 h3{
+            font-size: 1.2rem;
+            color: lightskyblue;
+            padding-bottom: 2px;
+        }
+        .col2 a{
+            color:white;
+            font-size: 1 rem;
+        }
+        .col2 a:hover {
+            color: #ffaf00;
+            font-style: italic;
+        }
+        .col3{
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+           
+           justify-content: center;
+           padding-right: 16%;
+        }
+        .col3 h3{
+            font-size: 1.2rem;
+            color: lightskyblue;
+            padding-bottom: 2px;
+        }
+        .col3 a{
+            color:white;
+            font-size: 1 rem;
+        }
+        .col3 a:hover {
+            color: #ffaf00;
+            font-style: italic;
+        }
+       .row {
+           display: flex;
+           column-gap: 3cm;
+       }
+       .col4 {
+        text-align: center;
+            display: flex;
+            flex-flow: column;
+           
+           justify-content: center;
+           padding-right: 16%;
+       }
+       .handles {
+    
+    align-items: justify;
+    display: flex;
+    align-content: justify;
+    padding-left: 18%;
+    padding-right: 8%;
+    background-color: #fff;
+    padding-bottom: 4%;
+    
+}
+.taglinehandles h4 {
+
+
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+.taglinehandles {
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.dropbtn {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  }
+.dropdown {
+    position: relative;
+    
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+   
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                
+              <img src="logo 3.png" width="500" height="400" sizes="100">
+                
+                
+            </div>
+
+            
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbtn"><h4>Search</h4></button>
+                    <div class="dropdown-content">
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html">Konkan</a>
+                        
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nashik.html">Nashik </a>
+                        
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/amaravatidivision.html">Amaravati </a>
+                        
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html">Aurangabad </a>
+                        
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nagpurdivision.html">Nagpur </a>
+                        
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/punedivision.html">Pune </a>
+                    </div>
+                 </div>
+                
+            
+               
+               
+                
+            </div>
+            
+            
+        </nav>
+            <main>
+                <section>
+                    <h3>Welcome to Maharashtra</h3>
+
+                    <h1>DO COME AND VISIT <span class="change_content"></span></h1>
+                    <p>"Maharashtra once is not enough"</p>
+                    <a href="maharashtra.mp4" class="button1">Watch video</a>
+                    <a href="file:///C:/Users/LENOVO/Desktop/my%20project/3rd.html" class="button2">Explore more</a>
+                    <p>Welcome aboard a travel experience that gives you a glimpse into this vibrant and beautiful land.<br>
+
+                        Welcome to Maharashtra. A land untouched, unsullied, unlimited.</p>
+                    
+                </section>
+            </main>
+        
+    </header>
+    <section class="taglinehandles">
+        <h4>Connect with us on our Social Handles!</h4>
+    <div class="handles">
+         <a href="https://instagram.com/mhtravel2121?igshid=1ud8vgc9lmbsp"><img src="instagram.png" width="200" height="200"></a>
+         <a href="https://www.facebook.com/MH-Travel-102684151953207/"><img src="facebook.png" width="200" height="200" ></a>
+         <a href="https://www.youtube.com/watch?v=BHzAPZEsYHU&t=92s"><img src="youtube.png" width="200" height="200"></a>
+         <a href="https://chat.whatsapp.com/CtJ0qi4FuyNCQ6U1hCcYj1"><img src="whatsapp.png" width="200" height="200"></a>
+         
+    </div> 
+        </section>
+    <section class="footer">
+      <div class="row">
+         <div class="col0">
+           <img src="logo 3.png" width="300" height="230">
+           <a href="file:///C:/Users/LENOVO/Desktop/my%20project/aboutus.html"><h3>ABOUT DEVELOPERS</h3></a>
+           <h4>Magnificient Maharashtra</h4>
+         </div>
+          
+          
+          <div class="col1">
+              <h3>Explore divisions</h3>
+              <br>
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html">Konkan division</a>
+              <br>
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nashik.html">Nashik division</a>
+              <br>
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/amaravatidivision.html">Amaravati division</a>
+              <br>
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html">Aurangabad division</a>
+              <br>
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nagpurdivision.html">Nagpur division</a>
+              <br>
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/punedivision.html">Pune division</a>
+          </div>
+          <div class="col2">
+              <h3>Other websites links</h3>
+              <br>
+              <a href="https://www.india.gov.in
+              ">Government of India</a>
+              <br>
+              <a href="https://www.maharashtra.gov.in/1125/home">Government of Mharashtra</a>
+              <br>
+              <a href="https://www.tourism-of-india.com/maharashtra">Tourism in Maharashtra</a>
+              <br>
+              <a href="https://www.maharashtratourism.gov.in">Maharashtra tourism</a>
+              <br>
+              <a href="www.mahapolice.gov.in
+              ">Maharashtra state Police</a>
+              <br>
+              <a href="https://msrtc.mahaonline.gov.in">MSRTC</a>
+              
+          </div>
+          <div class="col3">
+              <h3>Explore India</h3>
+              <br>
+              <a href="https://www.gujarattourism.com">Gujarat tourism</a>
+              <br>
+              <a href="https://www.goa-tourism.com
+              ">Goa tourism</a>
+              <br>
+              <a href="https://www.karnatakatourism.org
+              ">Karnataka tourism</a>
+              <br>
+              <a href="https://tourism.ap.gov.in">Andhrapradesh tourism</a>
+              <br>
+              <a href="https://www.mptourism.com
+              ">Madhyapradesh tourism</a>
+              <br>
+              <a href="https://chhattisgarhtourism.in
+              ">Chhatisgarh tourism</a>
+
+          </div>
+          
+      </div>
+      <h1>&copy; copyright @ 2021 by <span> MH Travel</span></h1>
+  </section>
+</body>
+</html>

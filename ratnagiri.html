@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratnagiri</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ratnagiri.css">
+    <link rel ="shortcut icon" href = "favicon.png" type ="image/x-icon">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <div class="logo">
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html"><img src="logo 3.png" width="600" height="400" size="200"></a>
+          </div>
+          
+           <div class="nav-links">
+              <ul>
+                <li><a href="#destinationsdiv">Destinations</a></li>
+                <li><a href="#cuisinediv">Cuisine</a></li>
+                <li><a href="#shoppingdiv">Shopping attactions</a></li>
+              </ul>
+          </div>
+        </nav>
+        <div class="text-box">
+          <h1>RATNAGIRI</h1> 
+           <p> " House of ALPHANSO ! "</p>
+        </div>
+   </section>
+        <section class="information">
+           <p> Ratnagiri District is a district in the state of Maharashtra, India. The administrative headquarter of the district is located in the town of Ratnagiri. The district is 11.33% urban. The district is bounded by the Arabian Sea to the west, Sindhudurg district to the south, Raigad district to the north and Satara, Sangli and Kolhapur districts to the east. This district is part of Konkan division.Ratnagiri was an administrative capital under the Sultanate of Bijapur. In 1731 it came under the control of the Kingdom of Satara, and in 1818 it was annexed to British India. A fort built by the Bijapur Sultanate, reconstructed by the Maratha king Shivaji in 1670 is located on a headland near the harbour.<span id="dots">...</span><span id="more">
+
+            Ratnagiri is the birthplace of Indian freedom fighter Lokmanya Bal Gangadhar Tilak. He was born on 23 July 1856 after which he moved to Pune with his family when he was 10 years old. It was also then place of confinement for Vinayak Damodar Savarkar from 1921 to 1935.
+            
+            In 1886, King Thibaw of Burma was sent to Ratnagiri after he was deposed and his country annexed by the British Empire. Along with his pregnant wife, his junior queen, and his two young daughters, he would live out the rest of his life in Ratnagiri, as a prisoner of the British Crown. Ratnagiri was chosen for its remote location, some 3,000 miles from Thibaw's former royal seat of Mandalay, accessible only by sea for parts of the year and far from any territory of any rival European power.</span> </p>
+        </section>
+        <button type="button" id="read" onclick="read()">Read more</button>
+          <script type="text/javascript">
+           var j=0;
+           function read(){
+              if(!j){
+                 document.getElementById("more").style.
+                 display = "inline";
+                 document.getElementById("dots").style.
+                 display  = "none";
+                 document.getElementById("read").innerHTML=
+                 "Read less";
+                 j=2;
+            }
+              else{
+                  document.getElementById("more").style.
+                  display = "none";
+                  document.getElementById("dots").style.
+                  display  = "inline";
+                  document.getElementById("read").innerHTML=
+                  "Read more";
+                  j=2;
+            }
+         }
+       </script>
+       <!--this is code for population and other area literacy rate-->
+       <section class="population">
+       <div class="container1">
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="populationicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>POPULATION</h3>
+                        <h4>16.2 Lakhs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <br>    
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="areaicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>AREA</h3>
+                        <h4>8208 Sq.km</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>     
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="literacyicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>LITERACY RATE</h3>
+                        <h4>82.43%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--end-->
+<!--this is code for destination slider-->
+<section class="taglineofdestination">
+    <img src="destinationslogo.png" width="150" height="150" sizes="50" >
+     <h3> Here are the destinations for you !</h3>
+</section> 
+<section class="destinations" id="destinationsdiv">
+    <div class="tabs">
+        <div class="start">
+            <div class="active">
+                <i class="fa fa-code"></i>Marleshwar temple
+            </div>
+            <div>
+                <i class="fa fa-pencil-square"></i>Aare-ware beach
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>Jaigad Fort
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Govalkot Fort
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Mandavi beach
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Ganapatipule
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Pawankhind
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Bhatye beach
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Ratanagad Fort
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Gate way of Ratnagiri
+            </div>
+        </div>
+        <div class="tab-indicator"></div>
+        <div class="tab-content">
+            <div class="active">
+                <i class="fa fa-code"></i>
+                <h3>Marleshwar Temple</h3>
+                <br>
+                <h5>Location: This place is around 20km from Devrukh, Ratnagiri, Maharashtra.</h5>
+                <h5>Way to reach: Direct state transport buses from Marleshwar to Devrukh are also available. Marleshwar can be directly reached from Mumbai by road and the distance is around 336km.</h5>
+                <h5>Near by attractions: Marleshwar Waterfalls, Ganapatipule, Parashuram mandir, Ratanadurga.</h5>
+                <p>Marleshwar is a place in Sangameshwar subdivision of Ratnagiri district in the Indian state of Maharashtra. This is a small Shiva Temple which takes about one and a half hours to reach by road. The Temple can be reached by climbing approximately 300-400 steps which are lined with refreshment stalls to keep the climbing pilgrims refreshed. The Shiva Temple is situated inside a cave and has a small viewing platform in its premises from which the magnificent Dhareshwar Waterfalls can be admired. Every year thousands of devotees visit the temple and perform ablutions in the nearby Bav river.</p>
+                <p> A trek through Chiplun to reach Marleshwar Temple is a 3-day trek from Helwak through Chandoli Forest. Since it is not a one-day trek, the destinations are broken down. One the first day, the trekkers may cover Ram Ghal, Bhairav Gad and Patharpunj Village. The second day may include reaching Prachit Gad through the dense Chandoli Forest and Chandel Village. And on the third day, one can cover Kundi Village, Mahimar Gad, and Marleshwar. If the time and occasion call for an unplanned stay at one of the villages, it can become a 4 to 5 day-long exciting adventure.
+                </p>
+                <p>On the day of 'Makarsankranti' a celebration of the marriage of Marleshwar and Girijadevi takes place. On 'Mahashivratri' and 'Tripuri Poornima' there is a fair. Marleshwar name may have come from Maral village .</p>
+                <i class="images">
+                    <img src="ratnagiri/marleshwar1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/marleshwar2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/marleshwar3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-pencil-square" id="squarediv"></i>
+                <h3>Aare-Ware Beach</h3>
+                <br>
+                <h5>Location: 9 km from Ganpatipule Bus Stand, near Nevare village, Maharashtra.</h5>
+                <h5>Way to reach: You can get lots of buses, and rikshaws from Ganapatipule.</h5>
+                <h5>Near by attractions: Ganapatipule Temple.</h5>
+                <p>Aare-ware beach is just a short drive of around 12 kilometers from the famous Ganapatipule Temple. These twin beaches, known as Aare-Ware were formed due to the corner of the mountain that submerged in the sea. A geological wonder in itself, the two sides of the same mountain, the Aare and Ware beach were formed ages ago due to the convergence of the mountain into the ocean. This one of a kind phenomenon is indeed an epitome of beauty and serenity of nature. One is ought to be mesmerized and instantly falls in love with the virgin and crescent looking twin beaches of Aare and Ware.
+                </p>
+                <br>
+                <p>There is no sewage or waste drainage in this part of the sea. Covered with smooth, golden sand, the beach offers magnificent views of the sunset over the azure waters of the Arabian Sea. You can enjoy an impressive view from the nearby Aare Ware point located on the peak of a hill.
+                    Even the drive to the beach down Aare Ware road is fabulous because it is carved on the Western Ghats and runs along the sea. Thus, the journey provides an exotic panorama of the Konkan coastline as well as the majestic hills.</p>
+                <br>
+                <br>
+                 <i class="images">
+                     <img src="ratnagiri/aarewarebeach1.jpg" width="300" height="200" sizes="50">
+                  <br><br>
+                    <img src="ratnagiri/aarewarebeach2.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                    <img src="ratnagiri/aaarewarebeach3.jpg" width="300" height="200" sizes="50">
+                 </i>
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>
+                <h3>Jaigad Fort</h3>
+                <br>
+                <h5>Location:  at the tip of a peninsula in Ratnagiri District at a distance of 14 km from the temple town of Ganpatipule</h5>
+                <h5>Way to reach: Best way to reach jaigad lighthouse The lighthouse is a famous landmark near the Bhagvati Fort and can be easily reached using local transport or by hiring a private taxi.</h5>
+                <h5>Near by attractions: Jaigad lighthouse, Bhudal beach, Magic garden.</h5>
+                <p>Jaigad fort is said to have been built by Bijapur Kings in the 16th century. Later it passed into the hands of Naiks of Sangameshwar. He had 7-8 villages and 600 troops under his command. He defeated combined forces of Bijapur and Portuguese in 1583 and 1585. In 1713 Jaigad was one of the ten forts which was ceded by Balaji Vishwanath Peshwa to Kanhoji Angre. In June 1818 this fort was captured by British without any struggle.</p>
+                
+                <p>Jaigad Fort is a coastal fortification that is located at the tip of a peninsula in Ratnagiri District at a distance of 14 km from the temple town of Ganpatipule, in the state of Maharashtra, India. Nestled on a cliff, it overlooks a bay formed where the Shastri river enters the Arabian Sea. It has a commanding view of the bay, the nearby power plant and the open sea.</p>
+                
+                <p> A jetty port Angrey, and a lighthouse is located nearby. Although in ruins, most of the fort's outer wall and ramparts still stand. A deep moat surrounds the fort side not facing the cliff edge. In the middle of the 13 acre fort lies the palace of Kanhoji Angre, a Ganpati temple and wells to store water. It is a protected monument.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/jaigad.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/jaigad1.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/jaigad2.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Govalkot Fort</h3>
+                <br>
+                <h5>Location: on the southern bank of Vashishti River, about 10.0 km (6.2 mi) from Chiplun in Maharashtra, India.</h5>
+                <h5>Way to reach: There are buses facilities from Chipalun.</h5>
+                <h5>Near by attractions: Korlai Fort.</h5>
+                <p> Govalkot fort is a small fort located on the southern bank of Vashishti River, about 10.0 km (6.2 mi) from Chiplun in Maharashtra, India. This fort is guarded by the river on three sides and a trench on the fourth side. Its population which includes Hindus, Muslims, and Buddhists. According to old natives of Gowalkot, the history of Gowalkot goes back to a King, who was Hindu and finally was converted in Muslim, his surname was "Chougle", and most of the land in Gowalkot is owned by the Chougle family. All other owner of land in Gowalkot must have either received the land as gift [or bought] from Chougle family must have lost in "kul kaida" a rule by the government.
+                
+                Famous for its ancient fort build by Siddi Habshi of Janjira in 1690. The Gowalkot Fort covers an area of around two acres. In 1660, Shivaji Maharaj won this fort and renamed as Govindgad. Sambhaji Maharaj lost this fort to Siddi. In 1736, Chimaji Appa won this fort by killing Siddi Sat in battle. In this battle Siddhi Sat lost 1300 soldiers and Maratha army lost 800 soldiers.Tulaji Angre/Sarkhel Tulaji, in 1745, captured it from. Later in 1755, Tulaji Angre lost it to the Peshwa and eventually in 1818 East India Company took control from the Peshwa. Portuguese ships attacked this fort during the Siege of Dabhol.</p>
+                <p>The fort is dilapidated at present. This fort is spread over 2 acres of land. There is a temple of goddess Karanjeshwari at the foothills of the fort. However, from within the fort, there are trees, buildings and dwellings and a dry well which is approximately 22.0 ft (6.7 m) deep. From the top of the small hill on the fort, the most beautiful and stunning glimpse of the smoothly flowing Vashishti River and the undulating valley is visible. It takes about 1 hour to reach the fort and view all places in the fort. There were about 22 cannons around the fort. The 10 cannons were shifted from the port area to the fort on 29 May 2017 by archeologist from Pune and Chiplun. The longest cannon is 7.5 feet in length. These cannons are British made but, supposed to be used by Maratha army.</p>
+                
+                <i class="images">
+                    <img src="ratnagiri/govalkot1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/govalkot2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/govalkot3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Mandavi Beach</h3>
+                <h5>Location: Ratnagiri Town, Ratnagiri, Maharashtra</h5>
+                <h5>Way to reach: Pune to Ratnagiri via Bus, You can also try option of kokan railway.</h5>
+                <h5>Near by attractions: Tilak Museum, Bhatye beach, Titanic point.</h5>
+
+                <p>Most crowded beach of Ratnagiri with a panoramic view of Ratnadurg fort in the west and Arabian sea to the south. It has a vast line of seashore upto Rajiwanda port.</p>
+
+                   <p> Due to its black sand, it is renowned as 'Black sea' and therefore is filthier than other beaches yet it is one of the most sought after beaches in Ratnagiri because of its proximity to the town.</p>
+                   <P> Mandvi beach is located in the vicinity of Ratnagiri town of Maharastra. Mandvi beach popular for visitors and this beach extends up to Rajiwada port is border by Ratnagiri,This beach is often referred to as Black sea.This beach is also known as 'Gateway of Ratnagiri'.</P>
+                   <p>One such place is Ratnagiri. It is now accessible from Mumbai by train or by bus. It is also about 300 KM from Goa. Ratnagiri is still under developed but rapid growth is taking place. Places to see in Ratnagiri are Bhate beach, Gateway of Ratnagiri, Bhagwati temple, Fish Aquarium, Thiba palace, Lokmanya Tilak's birthplace and Temple built by Sawarkar.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/mandavibeach6.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/mandavibeach2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/mandavibeach1.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Ganapatipule</h3>
+                <h5>Location: Ganapatipule is approximately 375 km. south of Mumbai, along the Konkan Coast. </h5>
+                <h5>Way to reach:The town has a small bus stand, State transport buses to Kolhapur Pune are available town is easily accessible from the port city of Ratnagiri, which also has a railway station and an airport. </h5>
+                <h5>Near by attractions: Velaneshwar Temple, Jaigad Fort.</h5>
+                <p>According to local folklore, the Hindu god Ganapati, taking umbrage at a remark made by a native lady, moved to Pulé पुळे (a few km before the town) from his original abode of Gulé. Thus the region was named Ganpati-pulé.
+
+                    The 400-year-old Ganpati idol at Ganpatipule is said to have sprung up from the soil.[4] This deity faces the west, so as to guard the western gates, unlike deities in other Indian temples who face the east. The temple is at the base of a hill, and pilgrims walk around (pradakshina) the hill as a mark of respect.</p>
+                    <p>Ganapatipule is approximately 375 km. south of Mumbai, along the Konkan Coast. It is a small town with about 100 houses, and its beach is a tourist destination. The temple of Swayambhu (self-originated) Ganesh is frequented by thousands every year. The God is considered to be the Paschim Dwarpalak (Western Sentinel God of India),and those who visit Ganapatipule make it a point to pay their respects to this deity. Ganapatipule is rich in flora, including mangroves and coconut palms.
+
+                        Ganapatipule is governed by the Ganapatipule Grampanchayat.</p>
+                        <p>With the development of tourism, a number of resorts and hotels have opened in this small town, the most significant of which is the Maharashtra Tourism Development Corporation resort near the beach. Other resorts and spas include Greenleaf Resort, Abhishek Beach Resort and Spa, Areopagus Spa, and The Blue Ocean Resort and Spa, Hotel Heramb in Ganpatipule and also a few smaller hotels also Bhakt Nivas available for tourist in this town.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/ganapati.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/ganapatipulemandir.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/ganapatipule1.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Pawankhind</h3>
+                <h5>Location: Ratnagiri, Maharashtra.</h5>
+                <h5>Way to reach: You will get several bus options from Kolhapur as well as from Ratnagiri.</h5>
+                <h5>Near by attractions: Vishalgad fort, Panhala fort.</h5>
+                <p>Battle of Pävankhind was a rearguard last stand that took place on 13 July 1660 at a mountain pass in the vicinity of fort Vishalgad, near the city of Kolhapur, Maharashtra, India between the Maratha Warrior Baji Prabhu Deshpande and Siddi Masud of Adilshah Sultanate. The engagement ending with the destruction of the Maratha forces, and a tactical victory for the Bijapur Sultanate, but failing to achieve a strategic victory.</p>
+                <p>beautiful place in ratnagiri, where you can be witnesss of sacrifice of great Bajiprabhu Deshapande.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/pawankhind1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/pawankhind2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/pawankhind3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Bhatye Beach</h3>
+                
+                <h5>Location: Ratnagiri, Maharashtra.</h5>
+                <h5>Way to reach: You will get several bus and auto options  from Ratnagiri.</h5>
+                <h5>Near by attractions: Ratnagiri Lighthouse, Madvi Beach.</h5>
+                <p>The Bhatye beach is a lovely, long stretch of a clean beach ideal for a relaxing holiday. Bhatye, a small village close to Ratnagiri city is popular for its generous flat sea showers. The length of the beach is 1.5 kms and it is flat and straight and clear. The Ratnagiri light house and the famous Madavi beach of Ratnagiri city can be seen from Bhatye Beach.
+                The best beach in the area.
+                    Firstly, it has a proper parking. Secondly, it’s the cleanest beach in the area. You could walk almost a kilometre along the gently sloping beach with almost no one in sight! It is not a white sand beach but the grey sand makes up by being almost free of humans and their leftovers.....</p>
+               
+                <p>The Bhatye beach is a lovely, long stretch of a clean beach ideal for a relaxing holiday. Bhatye, a small village close to Ratnagiri city is popular for its generous flat sea showers. The length of the beach is 1.5 kms and it is flat and straight and clear. The Ratnagiri light house and the famous Madavi beach of Ratnagiri city can be seen from Bhatye Beach.</p>
+
+                   <p>A trip to Bhatye Beach can provide one a splendid experience about the diverse cultures and traditions of Ganapatipule. You can go for a morning walk, laze around, play beach ball and football in the sand, collect shells or just enjoy the beauty of this beach. One can 't forget to visit the Kohinoor to see the sunrise or sunset as it is a sight which will leave you captivated and stunned. The sand is soft like velvet and you can easily dust it off your body as it won't even stick. The Bhatye beach is a quiet and serene beach and you will feel it is almost your own private beach.</p>
+                <i class="images">
+                    <img src="ratnagiri/bhatyebeach1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/bhatyebeach2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/mandavibeach4.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Ratanadurga/ Bhagvati Fort</h3>
+                <h5>Location: Ratnagiri, Maharashtra.</h5>
+                <h5>Way to reach: Fort is at walkable distance from Ratnagiri.</h5>.
+                <h5>Near by attractions: Ratnagiri Lighthouse, Bhatye beach.</h5>
+            <p>Ratnagiri Fort, also called Ratnadurg Fort or Bhagawati Fort, is a fort located 2 km from Ratnagiri, in Ratnagiri district, of Maharashtra. This fort is an important fort in Ratnagiri district. The fort is a main tourist attraction due to the Bhagawati Temple inside the fort.</p>
+                <p>This fort was built during the Bahamani period. In 1670 Maratha King Chatrapati Shivaji Maharaj won the fort from the hands of Adil Shah of Bijapur. King Shivaji had built protecting towers on two commanding points, one at the south and the other near the old court house. The Citadel defense was improved by maratha Koli admiral Kanhoji Angre in 1750–1755. Dhondu Bhaskar Pratinidhi did some minor repairs to the fort during Peshwa regime (1755–1818). The fort was later won by the British in 1818. The temple of Bhagavati was renovated in 1950.</p>
+                <p>The nearest town is Ratnagiri. The fort is at walkable distance from the town. A wide road leads to the entrance gate of the fort. It takes about an hour to have a walk around the fort.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/ratangad1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/ratanagad3.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/ratangad2.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Gate way of Ratnagiri</h3>
+                <h5>Location: Ratnagiri, Maharashtra.</h5>
+                <h5>Way to reach: It at walkable distance from Ratnagiri.</h5>.
+                <h5>Near by attractions: Ratnagiri Lighthouse, Bhatye beach, Mandvi beach.</h5>
+                <p>It is a structure with a slopped roof in the Ratnagiri jetty with Mandavi beach. The beach itself is a treat to eyes. The slope is a defense artwork build by Pratinidhi Dhondu Bhaskar, according to a popular belief.
+
+                    It overlooks the great Arabian sea and therefore provides an unique experience of a walk on the seashore, enjoying the marvelous breeze.</p>
+                    <p>A man-made gateway built on the Mandavi Beach, the Gateway of Ratnagiri is a beautiful structure with a sloping roof. The beach in itself provides an entry to the hilly terrains of Ratnagiri. There is a small jetty here and a lighthouse which offers spectacular views of the sea.</p>
+                <br>
+                <i class="images">
+                    <img src="ratnagiri/ratnagirigateway1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratnagiri/ratnagirigateway2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratnagiri/ratnagirigateway3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+      function _class(name)
+   {
+return document.getElementsByClassName(name);
+   }
+
+let tabPanes = _class("start")[0].getElementsByTagName("div");
+
+for(let i=0;i<tabPanes.length;i++)
+{
+tabPanes[i].addEventListener("click",function()
+{
+    _class("start")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+    tabPanes[i].classList.add("active");
+
+    _class("tab-indicator")[0].style.top = 'clac(80px + ${i*5}px';
+
+    _class("tab-content")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+
+    _class("tab-content")[0].getElementsByTagName("div")
+    [i].classList.add("active");
+});
+}
+    </script>
+    <!--ended-->
+    <!--this code is for cuisine section-->
+     <section class="taglineofcuisine">
+        <img src="taglinelogoofcuisine.jpg" width="150" height="150" sizes="50">
+       <h3>Here is the cuisine of the district</h3>
+       </section>
+        <section class="bodyofcard" id="cuisinediv">
+         <div class="container2">
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/phanas.jpg" width="600" height="250"  alt="">
+              </div>
+              <div class="content">
+                  <h2>Jackfruit-Phanas</h2>
+                  <p>In Ratnagiri there are two types of jackfruits, Kapa and Baraka. you can also try Phanas poli and fried gare.<p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/ambawadi.jpg"width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Mango-barfi</h2>
+                  <p>Amba Poli is a traditional Mango Sweet from Konkan. It is made with Alphonso Mango Pulp and sugar. Amba Wadi. Amba Vadi is made from Alphonso mango Mawa </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="matanwade.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Matanwade</h2>
+                  <p>These are the special type of wade, that can eat with mutton and chicken. Ratnagiri is famous for it. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/modak.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Modak</h2>
+                  <p>Modak is an Indian sweet dumpling dish popular in many Indian states and cultures.You will get it anywhere in Ratnagiri. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/bangada fish.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Bangada-Fry</h2>
+                  <p> Bangada-Fry is the best seafood that you will get to eat in Ratnagiri. Taste of this sea food is amazing. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="ratnagiri/hapus.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Alphanso</h2>
+                  <p>Alphanso mangoes are famous in Ratnagiri. Alphanso in devagad are exported in foreign countries. </p>
+              </div>
+          </div>
+          </div>
+  </section>
+  <!--ended-->
+  <!--this code is for shopping attractions-->
+     <section class="taglineofshopping">
+       <img src="taglineofshopping.png" width="150" height="150" sizes="50">
+       <h3>Lets do some shopping from the district !</h3>
+    </section>
+   <section class="shoppingattractions" id="shoppingdiv">
+      <div class="container4"> 
+          <div class="box1">
+              <img src="shopback.jpg" width="600" height="100" alt="">
+             <div class="content1">
+                <h4>Kohinoor City Centre Ratnagiri</h4>
+                <p> Address: Jain & Jain Construction Co 1754-K, Athawada Bazar 80ft Highway, Ratnagiri, 415612.
+                </p>
+                <p>Timing: 9am to 8pm.
+                </p>
+             </div>
+           </div>
+          <div class="box1">
+              <img src="shop2.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Mahalaxmi Mini Mall</h4>
+                <p>Address: 24, 25, 26, parasmani K C Jain nagar, Kolhapur - Ratnagiri Rd, Maruti Mandir, Ratnagiri.
+                </p>
+                <p> Timing: 10am to 9pm.
+                </p> 
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop3.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Times Mall</h4>
+                <p>Address: डाॅ. बा, ना. सावंत मार्ग, Tilak Ali, Ratnagiri, Maharashtra 415612.
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p> 
+              </div>
+            </div>
+  </div>
+         <div class="container5">
+           <div class="box1">
+              <img src="shop4.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Arihant Mall</h4>
+                <p>Address: Abhyudhya Nagar, Ratnagiri, Maharashtra 415612.
+                </p>
+                <p>Timing: 8am to 10pm.
+                </p>
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop5.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Siddhagiri Product Retailer Ratnagiri</h4>
+                <p>Address: Police Head Quarters, Ratnagiri, Maharashtra 415612.
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p>
+              </div>
+            </div>
+           <div class="box1">
+              <img src="lakshmiroad.jpg" width="600" height="200" alt="">
+               <div class="content1">
+                <h4>Samartha Vastu Bhandar</h4>
+                <p>Address: Ratnagiri, Maharashtra 415639.
+                </p>
+                <p>Timing: 10am to 8.30pm.
+                </p> 
+              </div>
+           </div>
+         </div>
+   </section>
+   <!--ended-->
+   <!--this code is for other districts-->
+    <section class="lookfor">
+        <img src="searchicon.png" width="200" height="150" sizes="50">
+      <h3>You may also look for other districts !</h3>
+    </section>
+     <section class="otherdistricts">
+         <div class="container7">
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>01</h2>
+                      <h3>Satara</h3>
+                      <p>Satara is a city located in the Satara District of Maharashtra state of India, near the confluence of the river Krishna and its tributary, the Venna. The city is known as a Soldier's city as well as Pensioner's city. Famous for its Kandi Pedhe, tasty sweet item !</p>
+                      <p><h4>It is 194 KM from Ratnagiri</h4></p>
+                      <a href="">Explore</a>
+                  </div>
+              </div>
+            </div>
+           <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>02</h2>
+                      <h3>Kolhapur</h3>
+                      <p>Kolhapur, is a Historic and ancient holy city in Maharashtra, India. Situated on the banks of river Panchganga.  Prior to Indian independence, Kolhapur was a 19 gun salute princely state ruled by the Bhosale Chhatrapati of the Maratha Empire.</p>
+                      <p><h4>It is 132 KM from Ratnagiri</h4></p>
+                      <a href="">Explore</a>
+                  </div>
+              </div>
+            </div>
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>03</h2>
+                      <h3>Sindhudurg</h3>
+                      <p>Sindhudurg is an administrative district in the state of Maharashtra in India, which was carved out of the erstwhile Ratnagiri District. The district headquarters are located at Oros. Sindhudurg is most literate district in Maharashtra state. </p>
+                      <p><h4>It is 140 KM from Ratnagiri</h4></p>
+                      <a href="">Explore</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </section>
+     <!--ended-->
+   <!--this is code for handles-->
+              <section class="handles1">
+                <img src="internet.png" width="100" height="100" sizes="50">
+                <h5>Connect with us on our Social Handles!</h5>
+                </section>
+            <div class="handles">
+              <a href="https://instagram.com/mhtravel2121?igshid=1ud8vgc9lmbsp"><img src="instagram.png" width="200" height="200"></a>
+              <a href="https://www.facebook.com/MH-Travel-102684151953207/"><img src="facebook.png" width="200" height="200" ></a>
+              <a href="https://www.youtube.com/watch?v=BHzAPZEsYHU&t=92s"><img src="youtube.png" width="200" height="200"></a>
+              <a href="https://chat.whatsapp.com/CtJ0qi4FuyNCQ6U1hCcYj1"><img src="whatsapp.png" width="200" height="200"></a>
+              
+         </div> 
+             </section>
+         <section class="footer">
+           <div class="row">
+              <div class="col0">
+                <img src="logo 3.png" width="300" height="230">
+                
+                <h4>Magnificient Maharashtra</h4>
+              </div>
+               
+               
+               <div class="col1">
+                   <h3>Explore divisions</h3>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html">Kokan division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nashik.html">Nashik division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/amaravatidivision.html">Amaravati division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html">Aurangabad division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nagpurdivision.html">Nagpur division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/punedivision.html">Pune division</a>
+               </div>
+               <div class="col2">
+                   <h3>Other websites links</h3>
+                   <br>
+                   <a href="https://www.india.gov.in
+                   ">Government of India</a>
+                   <br>
+                   <a href="https://www.maharashtra.gov.in/1125/home">Government of Mharashtra</a>
+                   <br>
+                   <a href="https://www.tourism-of-india.com/maharashtra">Tourism in Maharashtra</a>
+                   <br>
+                   <a href="https://www.maharashtratourism.gov.in">Maharashtra tourism</a>
+                   <br>
+                   <a href="www.mahapolice.gov.in
+                   ">Maharashtra state Police</a>
+                   <br>
+                   <a href="https://msrtc.mahaonline.gov.in">MSRTC</a>
+                   
+               </div>
+               <div class="col3">
+                   <h3>Explore India</h3>
+                   <br>
+                   <a href="https://www.gujarattourism.com">Gujarat tourism</a>
+                   <br>
+                   <a href="https://www.goa-tourism.com
+                   ">Goa tourism</a>
+                   <br>
+                   <a href="https://www.karnatakatourism.org
+                   ">Karnatak tourism</a>
+                   <br>
+                   <a href="https://tourism.ap.gov.in">Andhrapradesh tourism</a>
+                   <br>
+                   <a href="https://www.mptourism.com
+                   ">Madhyapradesh tourism</a>
+                   <br>
+                   <a href="https://chhattisgarhtourism.in
+                   ">Chhatisgad tourism</a>
+     
+               </div>
+               
+           </div>
+           <h1>&copy; copyright @ 2021 by <span> MH Travel</span></h1>
+       </section>
+</bod>
+</html>

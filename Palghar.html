@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palghar</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="beed.css">
+    <link rel ="shortcut icon" href = "favicon.png" type ="image/x-icon">
+</head>
+<body>
+    <section class="header" style="background-image: url(palghar/palgharbackground.jpg);">
+        <nav>
+          <div class="logo">
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html"><img src="logo 3.png" width="600" height="400" size="200"></a>
+          </div>
+          
+           <div class="nav-links">
+              <ul>
+                <li><a href="#destinationsdiv">Destinations</a></li>
+                <li><a href="#cuisinediv">Cuisine</a></li>
+                <li><a href="#shoppingdiv">Shopping attactions</a></li>
+              </ul>
+          </div>
+        </nav>
+        <div class="text-box">
+          <h1>Palghar</h1> 
+           <p> " Newborn District in Maharashtra !  "</p>
+        </div>
+   </section>
+        <section class="information">
+           <p>The part of the country’s largest urban sea-hill of Thane District divisioned on 1st August 2014 and 36th new district of Maharashtra, Palghar came into existence. The working of a new district in the presence of then Chief Minister Prithviraj Chavan and then Revenue Minister Balasaheb Thorat, started from 1st August 2014. Palghar is the 36th district of the state. Palghar District’s total population is around 29,95,428. The district has a total of 8 talukas Jawhar, Mokhada, Talasari, Vasai, Vikramgad, Palghar, Dahanu and Wada.<span id="dots">...</span><span id="more">
+
+            Palghar District has 4,69,699 hectares of the total geographical area, total 1007 villages , 467 gram panchayats. In District the literacy rate is 66.65%. Male percentage is 72.23% and female literacy rate is 59.28%
+
+            On east side of district there is Thane and Nashik, on west there is Arabian sea, on south side Mumbai, Thane and on north side Walsad(Gujrat), Dadara and Nagar Haveli. Palghar has coast line of 112 KM. Palghar is adorned with natural beauty of arabian sea beaches on west and sahyadri hills on east which are tourist attraction.
+            
+            Palghar district has forts of Vasai, Arnala, Gambhirgad, Tarapur, Kaldurg, Kelva, Kamandurg, Shirgaon. Jivdani Temple in Vasai and Mahalaxmi temple in Dahanu are spiritual treasure of the district.
+            
+            Palghar district has triabal population. Varali Paintings and Tarpa Dance are the tribal cultural heritage. Gholwad in Dahanu tahsil is famous for Chiku production.</span> </p>
+        </section>
+        <button type="button" id="read" onclick="read()">Read more</button>
+          <script type="text/javascript">
+           var j=0;
+           function read(){
+              if(!j){
+                 document.getElementById("more").style.
+                 display = "inline";
+                 document.getElementById("dots").style.
+                 display  = "none";
+                 document.getElementById("read").innerHTML=
+                 "Read less";
+                 j=2;
+            }
+              else{
+                  document.getElementById("more").style.
+                  display = "none";
+                  document.getElementById("dots").style.
+                  display  = "inline";
+                  document.getElementById("read").innerHTML=
+                  "Read more";
+                  j=2;
+            }
+         }
+       </script>
+       <!--this is code for population and other area literacy rate-->
+       <section class="population">
+       <div class="container1">
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="palghar/population.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>POPULATION</h3>
+                        <h4> 30lakh</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <br>    
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="palghar/areaicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>AREA</h3>
+                        <h4>5344km2</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>     
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="palghar/literacyicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>LITERACY RATE</h3>
+                        <h4>66.65%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--end-->
+<!--this is code for destination slider-->
+<section class="taglineofdestination">
+    <img src="destinationslogo.png" width="150" height="150" sizes="50" >
+     <h3> Here are the destinations for you !</h3>
+</section> 
+<section class="destinations" id="destinationsdiv">
+    <div class="tabs">
+        <div class="start">
+            <div class="active">
+                <i class="fa fa-code"></i>Hanuman Point
+            </div>
+            <div>
+                <i class="fa fa-pencil-square"></i>Kelva Fort
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>Shirpamal
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Kalmandavi Waterfall
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Hiradpada Waterfall
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Saint Peters Church
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Mahalakshmi Temple
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Shirgaon Fort
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Suruchi Beach Vasai
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>
+            </div>
+        </div>
+        <div class="tab-indicator"></div>
+        <div class="tab-content">
+            <div class="active">
+                <i class="fa fa-code"></i>
+                <h3>Hanuman Point</h3>
+                <br>
+                <h5>Timing:8AM TO 6PM</h5>
+                <h5>Entry fee:NONE</h5>
+                <h5>Location:Lord Hanuman Mandir Rd, Mukane Colony, Jawhar, Maharashtra 401603</h5>
+                
+                <p>An ancient Hanuman mandir of great religious importance gives it its name, Hanuman Point. Another point that lures tourists is the astonishing view of Jaivilas Palace. The Maruti or Hanuman mandir is known as Katya Maruti mandir. During the day, the historical fort of Shahapur Maholi is visible from this point. A beautiful green 500ft deep valley known as Devkobacha Kada unfailingly takes the attention of the tourists.
+
+                    A great place to try to your new camera as Hanuman point is a complete package of sunrise point, surrounded by a valley and high hills.</p>
+                <p>
+                    The nearest airport from Jawhar is the Nasik airport, around 80 km. The Mumbai International Airport is 100 km from here. From both airports, you can easily find a taxi to reach Jawhar.
+                    
+                    
+                    Igatpuri railway station in Nasik is the nearest railway station from Jawhar. It is at a distance of 60 km and it takes around 2 hours to reach Jawhar. From the station, there are 24X7 taxi services to reach Jawhar.
+                    
+                    
+                    Travelling by road is the easiest and comfortable option. You will find a lot of taxi services on this route. You can easily hire a taxi/cab from nearby cities like Mumbai and Thane to reach Hanuman point-Jawhar.</p>
+                    <i class="images">
+                    <img src="palghar/Hanuman Point.jfif" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="palghar/Hanuman Point2.jfif" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="palghar/Hanuman Point3.jfif" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-pencil-square" id="squarediv"></i>
+                <h3>Kelva Fort</h3>
+                <br>
+                <h5>Timing:8AM to 6PM</h5>
+                <h5>Entry fee:none</h5>
+                <h5>Location:Kelwa Jangera, Kelwa, Maharashtra</h5>
+                <p>Kelva Fort, a historically important fort constructed by Portuguese during 16th century, is located at the southern end of the beautiful and serene Kelva Lake. The fort is situated in Palghar taluka. The fort was used by Chhatrapati Shivaji Maharaja during his Maratha rule. The fort offer exquisite panoramic views of the natural surroundings covered by greenish Suru trees. The fort, surrounded all the sides by the water, provide enchanting eye catching experience during the tidal procession and recessions. During low tide periods this is accessible and visible perfectly and local country boat facility is available to approach the fort.</p>
+                <br>
+                <p>
+                    Chatrapati Shivaji International Airport in Mumbai is the nearest international airport and after reaching Mumbai by air from anywhere in India and abroad tourists can travel either by road or by train to reach Kelva Beach according to their personal choice and preference.
+                    
+                    
+                    The nearest railway station is KELVE ROAD. Kelve Road is a railway station on the Western line of the Mumbai Suburban Railway network. Kelve Road is located in Palghar district of Maharashtra state in Konkan division. Kelve Road Railway Station is between the Virar-Dahanu local train service.
+                    
+                    
+                    Kelva Beach is situated only at a distance of 80km from Mumbai and can be easily reached either by taking the Mumbai-Ahmedabad Highway No. 8 to Vasai – Safale Road or Manor – Palghar road to Manor via Borivali – Dahisar.The beach is close to the Sitla Devi temple which is also a popular tourist attraction here. Kelva beach is well connected by road with different parts of Maharashtra and is at a distance of 105km from Thane, 140km from Mumbai City, 190km from Surat and 175km from Nashik.</p>
+                <br>
+                 <i class="images">
+                     <img src="palghar/Kelva Fort.jpg" width="300" height="200" sizes="50">
+                  <br><br>
+                    <img src="palghar/Kelva Fort2.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                    <img src="palghar/Kelva Fort3.jpg" width="300" height="200" sizes="50">
+                 </i>
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>
+                <h3>Shirpamal</h3>
+                <br>
+                <h5>Timing:any time</h5>
+                <h5>Entry fee:none</h5>
+                <h5>Location:Dharampur, Maharashtra 401603</h5>
+                <p>Shirpamal is a place of Historical Importance, as this is the place where Chhatrapati Shivaji Maharaj was felicitated by the Local King when he stayed overnight here, while on his way to Surat. It is actually on the Jawhar Nashik Road at a place called Dharampur which is about 4 kms from the Jawhar City</p>
+                
+                <p> 
+                    The nearest airport from Jawhar is the Nasik airport, around 80 km. The Mumbai International Airport is 100 km from here. From both airports, you can easily find a taxi to reach Jawhar
+                    
+                    
+                    Igatpuri railway station in Nasik is the nearest railway station from Jawhar. It is at a distance of 60 km and it takes around 2 hours to reach Jawhar. From the station, there are 24X7 taxi services to reach Jawhar.
+                    
+                    
+                    Travelling by road is the easiest and comfortable option. You will find a lot of taxi services on this route. You can easily hire a taxi/cab from nearby cities like Mumbai and Thane to reach Jawhar.
+                    
+                    </p>
+                <br>
+                <i class="images">
+                    <img src="palghar/shirpamal.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="palghar/shirpamal2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="palghar/shirpamal3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Kalmandavi Waterfall</h3>
+                <br>
+                <h5>Timing: 6:00 A.M. – 6:30 P.M</h5>
+                <h5>Entry fee:100rs</h5>
+                <h5>Location:Shivajinagar, Maharashtra 401603
+                </h5>
+                <p> The fascinating Kalmandvi Waterfall lies about 8km south of Jawhar town. It’s a beautifully cascading 100-meter-deep waterfall. Its rocky area makes for a perfect spot for adventure sports such as Trekking, Rock Climbing and Rappelling. A miraculous quality of this enthralling fall is that it flows throughout the year.</p>
+                <p>
+                    The nearest airport from Jawhar is the Nasik airport, around 80 km. The Mumbai International Airport is 100 km from here. From both airports, you can easily find a taxi to reach Jawhar.
+                    
+                    
+                    Igatpuri railway station in Nasik is the nearest railway station from Jawhar. It is at a distance of 60 km and it takes around 2 hours to reach Jawhar. From the station, there are 24X7 taxi services to reach Jawhar.
+                    
+                    
+                    Travelling by road is the easiest and comfortable option. You will find a lot of taxi services on this route. You can easily hire a taxi/cab from nearby cities like Mumbai and Thane to reach Jawhar.</p>
+                
+                <i class="images">
+                    <img src="palghar/kalmandavi waterfall.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="palghar/kalmandavi waterfall2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="palghar/kalmandavi waterfall3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Hiradpada Waterfall</h3>
+                <h5>Timing:open 24 hours</h5>
+                <h5>Entry fee:100rs</h5>
+                <h5>Location:Unnamed Road, Dabhosa, Maharashtra 401603</h5>
+                <p>Hiradpada is one of the 109 villages in Jawhar. The village is famous for its waterfall, which is just 0.5 km away from the village. The village has also gained popularity for the native tribals’ unique Dhol dance, Tarpa dance and Warli painting.By Air
+                    The nearest airport from Jawhar is the Nasik airport, around 80 km. The Mumbai International Airport is 100 km from here. From both airports, you can easily find a taxi to reach Jawhar.
+                    
+                    
+                    Igatpuri railway station in Nasik is the nearest railway station from Jawhar. It is at a distance of 60 km and it takes around 2 hours to reach Jawhar. From the station, there are 24X7 taxi services to reach Jawhar.
+                    
+                    
+                    Travelling by road is the easiest and comfortable option. You will find a lot of taxi services on this route. You can easily hire a taxi/cab from nearby cities like Mumbai and Thane to reach Jawhar.</p>
+                <br>
+                <i class="images">
+                    <img src="palghar/Hiradpada Waterfall.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="palghar/Hiradpada Waterfall2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="palghar/Hiradpada Waterfall3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Saint Peters Church</h3>
+                <h5>Timing:only on sunday[7Am to 12PM</h5>
+                <h5>Entry fee:none</h5>
+                <h5>Location:401404, MSEB Colony, Banjar para, Boisar, Palghar, Maharashtra 401404</h5>
+                <p>This church was created in the early part of the 20th century and was one of the first under the Archdiocese of Bombay. Fr. Ismail Da Costa, built a hut chapel in 1919 near Arnala beach. Later with help from local people of all faiths he constructed the Church of St. Peter. Archbishop Joaquim Lima (Archbishop of Bombay) blessed the church on 27 Dec 1931. Other historical churches in neighbourhood are St. James Church (Agashi) and Church of Holy Spirit (Nandakhal).The nearest International Airport is Chhatrapati Shivaji International Airport, Mumbai, roughly two hour drive from Palghar. It is well connected to a spectrum of cities in the country such as Bhopal, Bhubaneswar, Ahmedabad, Aurangabad, Bangalore, Chandigarh, Delhi, Goa, Gwalior, Jaipur, Jamnagar, Hyderabad, Indore and Jodhpur through Air India, Air France, Air China, Air Arabia and Air India Express.
+
+                    
+                    The nearest railway station is at Virar, You can even take state transport buses or hire auto rickshaws to reach this spot. There are many State Transport buses plying from Vasai to Arnala throughout the day. You can easily reach Vasai from any suburb in Mumbai through Western Railway local.
+                    
+                    
+                    Arnala is about 74 kilometres away from the heart of Mumbai and it takes about 1.30 hour to reach the destination by car. There are many State Transport buses plying from Vasai to Arnala throughout the day. You can easily reach Vasai from any suburb in Mumbai through Western Railway local.</p>
+                <br>
+                <i class="images">
+                    <img src="palghar/Saint Peters Church.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="palghar/Saint Peters Church2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="palghar/Saint Peters Church3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Mahalakshmi Temple</h3>
+                <h5>Timing:24 hours</h5>
+                <h5>Entry fee:none</h5>
+                <h5>Location:Dahanu, Manor, Maharashtra</h5>
+                <p>Mahalakshmi is the `kuldaivata`(patron God of a Hindu household) of tribals, so during the festivity period, the tribals arrange `taarpa` dance for their revelry. Every year a festival is held called Mahalakshmi Yatra for 15 days starting from Hanuman Jayanti.The nearest International Airport is Chhatrapati Shivaji International Airport, Mumbai, roughly two hour drive from Palghar. It is well connected to a spectrum of cities in the country such as Bhopal, Bhubaneswar, Ahmedabad, Aurangabad, Bangalore, Chandigarh, Delhi, Goa, Gwalior, Jaipur, Jamnagar, Hyderabad, Indore and Jodhpur through Air India, Air France, Air China, Air Arabia and Air India Express.
+
+                   
+                    Mahalakshmi Temple is located around 4 km from Charoti near Dahanu in Palghar For Dahanu Road trains are available from Mumbai and Virar.
+                    
+      
+                    Maharashtra State Road Transport Corporation buses are available from the neighbouring regions. Regular MSRTC bus services from Mumbai, Thane, Dahanu and Nasik to palghar, Mahalakshmi Temple is located around 4 km from Charoti near Dahanu in Palghar For Dahanu Road trains are available from Mumbai and Virar.</p>
+                <br>
+                <i class="images">
+                    <img src="palghar/Mahalakshmi Temple.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="palghar/Mahalakshmi Temple2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="palghar/Mahalakshmi Temple3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Shirgaon Fort</h3>
+                <h5>Timing:7AM to 6PM</h5>
+                <h5>Entry fee:none</h5>
+                <h5>Location:Palghar, Maharashtra 401404</h5>
+                <br>
+                <p>Shirgaon fort is located at one side of Shirgaon beach in Palghar taluka. The fort was used by great Maratha King Chhatrapati Shivaji as a place to keep a watch on enemies coming through Arabian Sea. The ancient fort is in ruins now.The Portuguese had dominance over this fort before Marathas.In 1818,the British captured this fort from the Marathas. The fort stands about 200 feet tall and spans more than 150 feet.The Portugue renovated this fort and increased its area while keeping the original brick and red stone construction intact.The five feet cannon on the northwest of citadel marks the history of the battles that took place over here. The picturesque environs of the fort and cleanliness attract many historians apart from the regular tourists.The most exciting bit is the palm tree with six to seven branches,a rarity.Shirgaon fort is well fortified and the walls are in good condition.There are many hidden caves in the walls of the fort.The nearest International Airport is Chhatrapati Shivaji International Airport, Mumbai, roughly two hour drive from Palghar. It is well connected to a spectrum of cities in the country such as Bhopal, Bhubaneswar, Ahmedabad, Aurangabad, Bangalore, Chandigarh, Delhi, Goa, Gwalior, Jaipur, Jamnagar, Hyderabad, Indore and Jodhpur through Air India, Air France, Air China, Air Arabia and Air India Express.
+
+                   
+                    Palghar has its own Railway Station named as Palghar Railway Station which is connected to the major cities of Maharashtra. It is linked with the cities like New Delhi, Bangalore, Mysore, Jamnagar, Chennai, Kanyakumari, Puri, Nasik, Surat, Ahmedabad and Jaipur through Dehradun Express, Lok Shakti Express, Ahmedabad Passenger, Ranakpur Express and Saurashtra Express.
+                    
+            
+                    Maharashtra State Road Transport Corporation buses are available from the neighbouring regions. Regular MSRTC bus services from Mumbai, Thane, Dahanu and Nasik to palghar,Shirgaon Fort / Shirgao Fort is a fort located 6.5km from Palghar, in Palghar district</p>
+                <br>
+                <i class="images">
+                    <img src="palghar/Shirgaon Fort.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="palghar/Shirgaon Fort2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="palghar/Shirgaon Fort3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Suruchi Beach Vasai</h3>
+                <h5>Timing:6AM to 7PM</h5>
+                <h5>Entry fee:none</h5>
+                <h5>Location:Vasai West, Vasai-Virar, Maharashtra 401201
+                </h5>
+                <p>This is an environment-friendly and clean beach. Located in Vasai Nagar, Suruchi Beach is a perfect choice for beach lovers who love to spend time away from the daily hustle bustle of life. The place offers amazing sunset and sunrise views, so it is always buzzing with young visitors and tourists. You can also plan a day’s outing or head to this place for a lovely evening or morning walk.Vasai is just 35 kms from Chhatrapati Shivaji International Airport in Mumbai and 143 kms from Lohegaon Airport in Pune.
+
+    
+                    The Vasai Road station (BSR) is connected with important cities like Mumbai and Pune by rail route. From vasai station auto and bus are available to take upto SURUCHI beach.
+                    
+                  
+                    Vasai is well connected to major cities and towns via state transport and private bus service. It can be accessed from Parnaka in Vasai town by bus or auto.
+                    
+                    </p>
+                <br>
+                <i class="images">
+                    <img src="palghar/suruchi beach.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="palghar/suruchi beach.jpg2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="palghar/suruchi beach.jpg3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+             
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+      function _class(name)
+   {
+return document.getElementsByClassName(name);
+   }
+
+let tabPanes = _class("start")[0].getElementsByTagName("div");
+
+for(let i=0;i<tabPanes.length;i++)
+{
+tabPanes[i].addEventListener("click",function()
+{
+    _class("start")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+    tabPanes[i].classList.add("active");
+
+    _class("tab-indicator")[0].style.top = 'clac(80px + ${i*5}px';
+
+    _class("tab-content")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+
+    _class("tab-content")[0].getElementsByTagName("div")
+    [i].classList.add("active");
+});
+}
+    </script>
+    <!--ended-->
+    <!--this code is for cuisine section-->
+     <section class="taglineofcuisine">
+        <img src="taglinelogoofcuisine.jpg" width="150" height="150" sizes="50">
+       <h3>Here is the cuisine of the district</h3>
+       </section>
+        <section class="bodyofcard" id="cuisinediv">
+         <div class="container2">
+          <div class="card">
+              <div class="imgBx">
+                  <img src="palghar/Panmodi.jfif" width="600" height="250"  alt="">
+              </div>
+              <div class="content">
+                  <h2> Panmodi</h2>
+                  <p>a steamed mix of grated cucumber, jaggery, rice flour.<p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="palghar/Aambil.jfif"width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2> Aambil </h2>
+                  <p>an energy food that contains fermented jowar or sorghum flour</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="palghar/Indel.jfif" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2> Indel </h2>
+                  <p>a special preparation of Marinated Chicken by Vasai's Christians. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="palghar/modak.jfif" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Modak</h2>
+                  <p>Modak is an Indian sweet dumpling dish popular in many Indian states and cultures.You will get it anywhere in Ratnagiri. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="palghar/daal bati.jfif" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>dal baati</h2>
+                  <p> A traditional rajasthani delicacy dish  </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="palghar/manchurian.jfif" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>manchurian</h2>
+                  <p>Manchurian in the Indian lingo is a term for fried veggies or fried meat (fish or prawns or chicken) in this spicy-umami sauce. </p>
+              </div>
+          </div>
+          </div>
+  </section>
+  <!--ended-->
+  <!--this code is for shopping attractions-->
+     <section class="taglineofshopping">
+       <img src="taglineofshopping.png" width="150" height="150" sizes="50">
+       <h3>Lets do some shopping from the district !</h3>
+    </section>
+   <section class="shoppingattractions" id="shoppingdiv">
+      <div class="container4"> 
+          <div class="box1">
+              <img src="shopback.jpg" width="600" height="100" alt="">
+             <div class="content1">
+                <h4>Amber Shopping Centre</h4>
+                <p> Address:  Juna Palghar, Palghar, Maharashtra 401404
+                </p>
+                <p>Timing: 9am to 8pm.
+                </p>
+             </div>
+           </div>
+          <div class="box1">
+              <img src="shop2.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Kuber Shopping Centre
+                </h4>
+                <p>Address: Mahim Rd, Punit Nagar, Juna Palghar, Palghar, Maharashtra 401404
+                </p>
+                <p> Timing: 10am to 9pm.
+                </p> 
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop3.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Rajeshwari Shopping Complex
+                </h4>
+                <p>Address: Mahim Rd, Vishnu Nagar, Palghar, Maharashtra 401404
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p> 
+              </div>
+            </div>
+  </div>
+         <div class="container5">
+           <div class="box1">
+              <img src="shop4.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Three Star Shopping Centre</h4>
+                <p>Address:  Tembhode, Palghar, Maharashtra 401404
+                </p>
+                <p>Timing: 8am to 10pm.
+                </p>
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop5.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Mudra Shopping Complex</h4>
+                <p>Address: Vishnu Nagar, Palghar, Maharashtra 401404
+
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p>
+              </div>
+            </div>
+           <div class="box1">
+              <img src="lakshmiroad.jpg" width="600" height="200" alt="">
+               <div class="content1">
+                <h4>Palghar Marketing</h4>
+                <p>Address: Alyali, Maharashtra 401404
+                </p>
+                <p>Timing: 10am to 8.30pm.
+                </p> 
+              </div>
+           </div>
+         </div>
+   </section>
+   <!--ended-->
+   <!--this code is for other districts-->
+    <section class="lookfor">
+        <img src="searchicon.png" width="200" height="150" sizes="50">
+      <h3>You may also look for other districts !</h3>
+    </section>
+     <section class="otherdistricts">
+         <div class="container7">
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>01</h2>
+                      <h3>Thane</h3>
+                      <p>Thane is one of the few industrially advanced districts in the state of Maharashtra. Thane district is on the North of Konkan division. According to census 2011, it is third in the state in terms of population. Area of ​​the district is 4214 sq. Km. It is 1.37 percent of the state. </p>
+                      <p><h4>It is 91 KM from palghar</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/thane.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+           <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>02</h2>
+                      <h3>Nashik</h3>
+                      <p>Nashik District is located between 18.33 degree and 20.53 degree North latitude and between 73.16 degree and 75.16 degree East Longitude at Northwest part of the Maharashtra state, at 565 meters above mean sea level. The District has great mythological background.</p>
+                      <p><h4>It is 147 KM from palghar</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nashik.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>03</h2>
+                      <h3>pune</h3>
+                      <p> The eighth largest metropolises in India, Pune is located in the state of Maharashtra. It is the second largest city in the state after Mumbai, and is an important city in terms of its economical and industrial growth.the presence of the numerous edifices in Pune links to its rich and glorious past</p>
+                      <p><h4>It is 243 KM from palghar</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/punedivision.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </section>
+     <!--ended-->
+   <!--this is code for handles-->
+              <section class="handles1">
+                <img src="internet.png" width="100" height="100" sizes="50">
+                <h5>Connect with us on our Social Handles!</h5>
+                </section> 
+                
+              <div class="handles">
+                   <a href="https://www.instagram.com/mhtravel2121/%E2%80%8B"><img src="instagram.png" width="200" height="200"></a>
+                   <a href="https://www.facebook.com/MH-Travel-10"><img src="facebook.png" width="200" height="200" ></a>
+                   <a href="https://www.youtube.com/watch?v=BHzAPZEsYHU&t=92s"><img src="youtube.png" width="200" height="200"></a>
+                   <a href="https://chat.whatsapp.com/CtJ0qi4FuyNCQ6U1hCcYj1"><img src="whatsapp.png" width="200" height="200"></a>
+                   
+              </div> 
+
+              <section class="footer">
+                <div class="row">
+                   <div class="col0">
+                     <img src="logo 3.png" width="300" height="230">
+                     <h4>Magnificient Maharashtra</h4>
+                   </div>
+                    
+                    
+                    <div class="col1">
+                        <h3>Explore divisions</h3>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html">Kokan division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nashik.html">Nashik division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/amaravatidivision.html">Amaravati division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html">Aurangabad division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nagpurdivision.html">Nagpur division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/punedivision.html">Pune division</a>
+                    </div>
+                    <div class="col2">
+                        <h3>Other websites links</h3>
+                        <br>
+                        <a href="https://www.india.gov.in
+                        ">Government of India</a>
+                        <br>
+                        <a href="https://www.maharashtra.gov.in/1125/home">Government of Mharashtra</a>
+                        <br>
+                        <a href="https://www.tourism-of-india.com/maharashtra">Tourism in Maharashtra</a>
+                        <br>
+                        <a href="https://www.maharashtratourism.gov.in">Maharashtra tourism</a>
+                        <br>
+                        <a href="www.mahapolice.gov.in
+                        ">Maharashtra state Police</a>
+                        <br>
+                        <a href="https://msrtc.mahaonline.gov.in">MSRTC</a>
+                        
+                    </div>
+                    <div class="col3">
+                        <h3>Explore India</h3>
+                        <br>
+                        <a href="https://www.gujarattourism.com">Gujarat tourism</a>
+                        <br>
+                        <a href="https://www.goa-tourism.com
+                        ">Goa tourism</a>
+                        <br>
+                        <a href="https://www.karnatakatourism.org
+                        ">Karnatak tourism</a>
+                        <br>
+                        <a href="https://tourism.ap.gov.in">Andhrapradesh tourism</a>
+                        <br>
+                        <a href="https://www.mptourism.com
+                        ">Madhyapradesh tourism</a>
+                        <br>
+                        <a href="https://chhattisgarhtourism.in
+                        ">Chhatisgad tourism</a>
+
+                    </div>
+                </div>
+                <h1>&copy; copyright @ 2021 by <span> MH Travel</span></h1>
+            </section>
+</body>
+</html>

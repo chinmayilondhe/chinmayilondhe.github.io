@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beed</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="beed.css">
+    <link rel ="shortcut icon" href = "favicon.png" type ="image/x-icon">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <div class="logo">
+              <a href=file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html><img src="logo 3.png" width="600" height="400" size="200"></a>
+          </div>
+          
+           <div class="nav-links">
+              <ul>
+                <li><a href="#destinationsdiv">Destinations</a></li>
+                <li><a href="#cuisinediv">Cuisine</a></li>
+                <li><a href="#shoppingdiv">Shopping Attractions</a></li>
+              </ul>
+          </div>
+        </nav>
+        <div class="text-box">
+          <h1>BEED</h1> 
+           <p><b><em>The Heart Of Maharashtra</em></b></p>
+        </div>
+   </section>
+        <section class="information">
+           <p> <b><em> Beed is a historical city of possibly medieval origin. Its early history is obscure. Historians speculate, based on archaeological remains, that the city might have been founded by the Yadava rulers (1173–1317) of Devagiri (Daulatabad). Beed was later governed by the Nizams during the period of British India.<span id="dots">...</span><span id="more"> Operation Polo, the code name of the Hyderabad "Police Action", was a military operation in September 1948 in which the Indian Armed Forces invaded the State of Hyderabad and overthrew its Nizam, annexing the state into India. Beed remained in annexed Hyderabad state until 1956 when it was included in Bombay Presidency. On 1 May 1960 Maharashtra state was created on a linguistic basis, and Marathi- & Muslim-dominated Beed district became part of Maharashtra.</span> </em></b> </p>
+        </section>
+        <button type="button" id="read" onclick="read()">Read more</button>
+          <script type="text/javascript">
+           var j=0;
+           function read(){
+              if(!j){
+                 document.getElementById("more").style.
+                 display = "inline";
+                 document.getElementById("dots").style.
+                 display  = "none";
+                 document.getElementById("read").innerHTML=
+                 "Read less";
+                 j=2;
+            }
+              else{
+                  document.getElementById("more").style.
+                  display = "none";
+                  document.getElementById("dots").style.
+                  display  = "inline";
+                  document.getElementById("read").innerHTML=
+                  "Read more";
+                  j=2;
+            }
+         }
+       </script>
+       <!--this is code for population and other area literacy rate-->
+       <section class="population">
+       <div class="container1">
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="populationicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>POPULATION</h3>
+                        <h4>2.50 Lakhs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <br>    
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="areaicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>AREA</h3>
+                        <h4> 10,693 km²</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>     
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="literacyicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>LITERACY RATE</h3>
+                        <h4>94.01%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--end-->
+<!--this is code for destination slider-->
+<section class="taglineofdestination">
+    <img src="destinationslogo.png" width="150" height="150" sizes="50" >
+     <h3> Here are the destinations for you !</h3>
+</section> 
+<section class="destinations" id="destinationsdiv">
+    <div class="tabs">
+        <div class="start">
+            <div class="active">
+                <i class="fa fa-code"></i>Vaijyanath Mandir
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Yogeshwari Mata 
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Mukundraj Samadhi
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Manjara Dam
+            </div>
+        </div>
+        <div class="tab-indicator"></div>
+        <div class="tab-content">
+            <div class="active">
+                <i class="fa fa-code"></i>
+                <h3>Shri Parli Vaijyanath</h3>
+                <br>
+                <h5>LOCATION: Parli City</h5>
+                <h5>WAY TO REACH: Once reached Parli can easily visit it by auto-rickshaws or City Buses. </h5>
+                <h5>NEARBY ATTRACTIONS: Parli Temple </h5>
+                <p><b><em> The History of Parli Vaijnath Temple says that Rani Ahilyabhai renovated the Parli Vaijnath Temple in the 1700s. Two very popular legends are associated with this temple. One of the legends talks about the Amrit and the other talks about the demon King Ravana and his quest to own Shiva. </em></b></p>
+                <i class="images">
+                    <img src="images/vaijyanathmandir1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="images/vaijyanathmandir2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="images/vaijyanathmandir3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Aadishakti Mata Yogeshwari Devi Mandir, Ambajogai </h3>
+                <br>
+                <h5>LOCATION: Situated 30 km away from Beed city.</h5>
+                <h5>WAYS TO REACH: Regular State transport buses available from Beed.</h5>
+                <h5>NEARBY ATTRACTIONS: Dharur,Chakarwadi</h5>
+                <p><b><em>Shri Yogeshwari is a Bhushan of Ambanagari. In the first place, untouchables have embraced literary and culturally respectable Maharashtrian minds. Two of them are remarkable about the poet’s composition Shri Mukundraj and the mausoleum of Navkot Narayan Sant poet Dasopant of Marathi literature. The importance of Ambanagari has increased due to this reason, and in ancient times, this city was sitting in other cities like Bushan ghost (Nagar Bhushan Bhav). Because Yogeshwari had Shaktipeeth, she had attained the form of holy pilgrimage and it is still today.</em></b></p>
+                <i class="images">
+                    <img src="images/yogeshwarimata1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="images/yogeshwarimata2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="images/yogeshwarimata3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>First Poet Shri Mukundraj Ambajogai</h3>
+                <p><b><em>Mukundraj maharaj was one of the earliest marathi literary poet. There is a Samadhi (Monument) of Mukundraj Maharaj at Ambajogai, 5 KM away from Yogeshwari Temple  </em></b></p>   
+                 <br>
+                <i class="images">
+                    <img src="images/mukundrajsamadhi1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="images/mukundrajsamadhi2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="images/mukundrajsamadhi3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Manjara Dam</h3>
+                <p><b><em> Manjara Dam, is an earthfill dam on the Manjara River near keij Beed and Kalamb Osmanabad in state of Maharashtra in India. Till September 2016, the reservoir completely dried up, after four years of no rainfall. At end of September 2016 the reservoir full.[2]</em></b></p>
+                <br>
+                <i class="images">
+                    <img src="images/manjaradam1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="images/manjaradam2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="images/manjaradam3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+      function _class(name)
+   {
+return document.getElementsByClassName(name);
+   }
+
+let tabPanes = _class("start")[0].getElementsByTagName("div");
+
+for(let i=0;i<tabPanes.length;i++)
+{
+tabPanes[i].addEventListener("click",function()
+{
+    _class("start")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+    tabPanes[i].classList.add("active");
+
+    _class("tab-indicator")[0].style.top = 'clac(80px + ${i*5}px';
+
+    _class("tab-content")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+
+    _class("tab-content")[0].getElementsByTagName("div")
+    [i].classList.add("active");
+});
+}
+    </script>
+    <!--ended-->
+    <!--this code is for cuisine section-->
+     <section class="taglineofcuisine">
+        <img src="taglinelogoofcuisine.jpg" width="150" height="150" sizes="50">
+       <h3>Let's have a look at cuisines of the district</h3>
+       </section>
+        <section class="bodyofcard" id="cuisinediv">
+         <div class="container2">
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/jawariroti.jpg" width="600" height="250"  alt="">
+              </div>
+              <div class="content">
+                  <h2>Jowar Roti</h2>
+                  <p><em>These rotis are flatbreads and vegan gluten-free consumed with Baigancha Bharta.</em> <p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/thalipeeth.jpg"width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Thalipeeth</h2>
+                  <p>Thalipeeth is a savoury multi-grain flatbread.</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/poha.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Poha</h2>
+                  <p> An Perfect Breakfast Meal.</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/solkadhi.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Sol Kadhi</h2>
+                  <p>Solkadhi is a type of drink, an appetizer usually eaten with rice or sometimes drunk after or along with the meals.</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/misalpav.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Misal Pav</h2>
+                  <p>It consists of misal and pav. The final dish is topped with farsan or sev, onions, lemon and coriander (cilantro). </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/modak.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Modak</h2>
+                  <p>Modak is an Indian sweet dumpling dish popular in Maharashtra and many cultures </p>
+              </div>
+          </div>
+          </div>
+  </section>
+  <!--ended-->
+  <!--this code is for shopping attractions-->
+     <section class="taglineofshopping">
+       <img src="taglineofshopping.png" width="150" height="150" sizes="50">
+       <h3>Lets do some shopping from the district !</h3>
+    </section>
+   <section class="shoppingattractions" id="shoppingdiv">
+      <div class="container4"> 
+          <div class="box1">
+              <img src="shopback.jpg" width="600" height="100" alt="">
+             <div class="content1">
+                <h4>Jawkar Wholsale Kirana Mall</h4>
+                <p> Address: Sahyog Nagar, DP Road, Below Baroda Bank, Near Sarda Nagari,Beed - 431122
+                </p>
+                <p>Timing: 9am to 8pm.
+                </p>
+             </div>
+           </div>
+          <div class="box1">
+              <img src="shop2.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Krushimall</h4>
+                <p>Address: Ashti, Maharashtra, Kada, Beed - 414202
+                </p>
+                <p> Timing: 10am to 9pm.
+                </p> 
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop3.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Om Mall Store</h4>
+                <p>Address: Sant Namdev Nagar, Mahatma Phule Nagar, Beed - 431122
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p> 
+              </div>
+            </div>
+  </div>
+         <div class="container5">
+           <div class="box1">
+              <img src="shop4.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Jadhav Super Shopping Center</h4>
+                <p>Address: Jadhav Wadi, Pimprichinchwad, Mankar Chowk Road, Beed - 413229
+                </p>
+                <p>Timing: 8am to 10pm.
+                </p>
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop5.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Shrikant Kirana Stores </h4>
+                <p>Address: Malkapur, Parli Ambajogai Road, Ambajogai, Beed 
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p>
+              </div>
+            </div>
+           <div class="box1">
+              <img src="lakshmiroad.jpg" width="600" height="200" alt="">
+               <div class="content1">
+                <h4>Raut Complex</h4>
+                <p>Address: Ashti, Ashti Beed, Beed - 414203
+                </p>
+                <p>Timing: 10am to 8.30pm.
+                </p> 
+              </div>
+           </div>
+         </div>
+   </section>
+   <!--ended-->
+   <!--this code is for other districts-->
+    <section class="lookfor">
+        <img src="searchicon.png" width="200" height="150" sizes="50">
+      <h3>You may also look for other districts !</h3>
+    </section>
+     <section class="otherdistricts">
+         <div class="container7">
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>01</h2>
+                      <h3>Parbhani</h3>
+                      <p>Parbhani is one of the Eight districts in the Marathawada region of Maharashtra State. It is well connected by road to other major towns in Maharashtra and also in the neighboring state of Andhra Pradesh.</p>
+                      <p><h4>It is 197 KM from Aurangabad</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/parbhani.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+           <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>02</h2>
+                      <h3>Latur</h3>
+                      <p> Latur is a district in Maharashtra state of India. It is the 16th largest city in Maharashtra with district headquarter located in the city. The district comes under Marathwada region of Maharashtra.</p>
+                      <p><h4>It is 265 KM from Aurangabad</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/latur.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>03</h2>
+                      <h3>Jalna</h3>
+                      <p>Jalna district is approximately situated at the center part of Maharashtra state of Republic of India and in northern direction of Marathwada region. </p>
+                      <p><h4>It is 60 KM from Aurangabad</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/jalana.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </section>
+     <!--ended-->
+   <!--this is code for handles-->
+              <section class="handles1">
+                <img src="internet.png" width="100" height="100" sizes="50">
+                <h5>Connect with us on our Social Handles!</h5>
+                </section> 
+                
+              <div class="handles">
+                   <a href="https://www.instagram.com/mhtravel2121/%E2%80%8B"><img src="instagram.png" width="200" height="200"></a>
+                   <a href="https://www.facebook.com/MH-Travel-10"><img src="facebook.png" width="200" height="200" ></a>
+                   <a href="https://www.youtube.com/watch?v=BHzAPZEsYHU&t=92s"><img src="youtube.png" width="200" height="200"></a>
+                   <a href="https://chat.whatsapp.com/CtJ0qi4FuyNCQ6U1hCcYj1"><img src="whatsapp.png" width="200" height="200"></a>
+                   
+              </div> 
+
+              <section class="footer">
+                <div class="row">
+                   <div class="col0">
+                     <img src="logo 3.png" width="300" height="230">
+                     <h4>Magnificient Maharashtra</h4>
+                   </div>
+                    
+                    
+                    <div class="col1">
+                        <h3>Explore divisions</h3>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html">Kokan division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nashik.html">Nashik division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/amaravatidivision.html">Amaravati division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html">Aurangabad division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nagpurdivision.html">Nagpur division</a>
+                        <br>
+                        <a href="file:///C:/Users/LENOVO/Desktop/my%20project/punedivision.html">Pune division</a>
+                    </div>
+                    <div class="col2">
+                        <h3>Other websites links</h3>
+                        <br>
+                        <a href="https://www.india.gov.in
+                        ">Government of India</a>
+                        <br>
+                        <a href="https://www.maharashtra.gov.in/1125/home">Government of Mharashtra</a>
+                        <br>
+                        <a href="https://www.tourism-of-india.com/maharashtra">Tourism in Maharashtra</a>
+                        <br>
+                        <a href="https://www.maharashtratourism.gov.in">Maharashtra tourism</a>
+                        <br>
+                        <a href="www.mahapolice.gov.in
+                        ">Maharashtra state Police</a>
+                        <br>
+                        <a href="https://msrtc.mahaonline.gov.in">MSRTC</a>
+                        
+                    </div>
+                    <div class="col3">
+                        <h3>Explore India</h3>
+                        <br>
+                        <a href="https://www.gujarattourism.com">Gujarat tourism</a>
+                        <br>
+                        <a href="https://www.goa-tourism.com
+                        ">Goa tourism</a>
+                        <br>
+                        <a href="https://www.karnatakatourism.org
+                        ">Karnatak tourism</a>
+                        <br>
+                        <a href="https://tourism.ap.gov.in">Andhrapradesh tourism</a>
+                        <br>
+                        <a href="https://www.mptourism.com
+                        ">Madhyapradesh tourism</a>
+                        <br>
+                        <a href="https://chhattisgarhtourism.in
+                        ">Chhatisgad tourism</a>
+
+                    </div>
+                </div>
+                <h1>&copy; copyright @ 2021 by <span> MH Travel</span></h1>
+            </section>
+</body>
+</html>

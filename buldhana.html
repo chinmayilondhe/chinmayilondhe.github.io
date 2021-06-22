@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buldhana</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="beed.css">
+    <link rel ="shortcut icon" href = "favicon.png" type ="image/x-icon">
+</head>
+<body>
+    <section class="header" style="background-image: url(raigad/raigadbg.jpg);">
+        <nav>
+          <div class="logo">
+              <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html"><img src="logo 3.png" width="600" height="400" size="200"></a>
+          </div>
+          
+           <div class="nav-links">
+              <ul>
+                <li><a href="#destinationsdiv">Destinations</a></li>
+                <li><a href="#cuisinediv">Cuisine</a></li>
+                <li><a href="#shoppingdiv">Shopping attactions</a></li>
+              </ul>
+          </div>
+        </nav>
+        <div class="text-box">
+          <h1>BULDHANA</h1> 
+           <p> " Beautiful land of Khandesh ! "</p>
+        </div>
+   </section>
+        <section class="information">
+           <p>Buldhana district is located in the Amravati division of Maharashtra, India . The name of the district is probably derived from Bhil Thana (place of Bhils, a tribal group). It is situated at the western border of Vidarbha region and is 500 km away from the state capital, Mumbai. The district has towns and cities like Shegaon, Jalgaon Jamod, Malkapur, Khamgaon, Lonar, Mehkar, and Chikhli.
+            <span id="dots">...</span><span id="more">
+              
+                It is surrounded by Madhya Pradesh in the north, Akola, Washim, and Amravati districts on the east, Jalna district on the south, and Jalgaon and Aurangabad districts on the west. Latitudes are 19.51° to 21.17° N and longitudes are 75.57° to 76.59° E. Bounded on the north by Madhya Pradesh state, to the east by Akola and Washim, to the south by Parbhani and Jalna districts, and to the west by Jalna and Jalgaon districts.
+            </span> </p>
+        </section>
+        <button type="button" id="read" onclick="read()">Read more</button>
+          <script type="text/javascript">
+           var j=0;
+           function read(){
+              if(!j){
+                 document.getElementById("more").style.
+                 display = "inline";
+                 document.getElementById("dots").style.
+                 display  = "none";
+                 document.getElementById("read").innerHTML=
+                 "Read less";
+                 j=2;
+            }
+              else{
+                  document.getElementById("more").style.
+                  display = "none";
+                  document.getElementById("dots").style.
+                  display  = "inline";
+                  document.getElementById("read").innerHTML=
+                  "Read more";
+                  j=2;
+            }
+         }
+       </script>
+       <!--this is code for population and other area literacy rate-->
+       <section class="population">
+       <div class="container1">
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="populationicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>POPULATION</h3>
+                        <h4>25.9 Lakhs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <br>    
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="areaicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>AREA</h3>
+                        <h4> 9661 Sq.km</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>     
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="literacyicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>LITERACY RATE</h3>
+                        <h4> 72.69%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--end-->
+<!--this is code for destination slider-->
+<section class="taglineofdestination">
+    <img src="destinationslogo.png" width="150" height="150" sizes="50" >
+     <h3> Here are the destinations for you !</h3>
+</section> 
+<section class="destinations" id="destinationsdiv">
+    <div class="tabs">
+        <div class="start">
+            <div class="active">
+                <i class="fa fa-code"></i>Anand Sagar
+                
+            </div>
+            <div>
+                <i class="fa fa-pencil-square"></i>Shegaon Temple
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>Rajur Ghat
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Lonar lake
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Dnyanganga 
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Rajmata Jijau Birthplace, Sindkhed Raja
+            </div>
+        </div>
+        <div class="tab-indicator"></div>
+        <div class="tab-content">
+            <div class="active">
+                <i class="fa fa-code"></i>
+                <h3>Anand Sagar, Shegaon</h3>
+                <br>
+                <h5>Location:Mahtama Jyotiba Phule Nagar, Shegaon, Maharashtra.</h5>
+                <h5>Way to reach: Bus and riksha are availablefor transportation </h5>
+                <h5>Near by attractions:Ganesh Mandir & Shre Gajanan Maharaj Sansthan.</h5>
+               <p>Shegaon and surrounding area has shortage of water and hence Shri Gajanan Maharaj Sansthan, Shegaon felt the need of a lake with ample of water in Shegaon which would help to solve the scarcity of water. With this aim Shree Sansthan created the artificial lake in Shegaon by lifting water from Man River (9 Km away from Shegaon) into the lake of Anand Sagar. But the mothly expenditure Rs. 50 Lakh for this purpose caused financial burden on Sansthan. Even then, the Sansthan carried out the project of Anand Sagar Lake, in order to increase the water table in surrouding areas of Shegaon. Not only this, the Shree Sansthan decided to develop this lake and its surrounding area with unique combination of spirituality and Amusement park for devotees with nominal donation. And the revenue from it would help to deal with water problem. With this noble vision and objective Shree Sansthan’s most innovative project- Anand Sagar came into exbtance with Shree’s blessings.</p>
+                <p>The grand entrance gate of Anand Sagar built in pink Rajasthan’s Stone with great aesthtic sense and beautiful carvings, hint at the stunning treasure inside. Adding to this, the spectrum of floral beauty and its colours add much more pleasure with the nature’s perfume. Through this entrance, the visitor gets enthralled with amazing creation at every step. 
+                </p>
+                
+                <i class="images">
+                    <img src="Buldhana/Anand1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Buldhana/Anand2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Buldhana/Anand3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-pencil-square" id="squarediv"></i>
+                <h3>Gajanan Maharaj Temple</h3>
+                <br>
+                <h5>Location:Mahtama Jyotiba Phule Nagar, Shegaon, Maharashtra.</h5>
+                <h5>Way to reach:public transport option: buses, taxis and auto will reach you here from any point in the city.</h5>
+                <h5>Near by attractions:Ganesh Mandir & Shre Gajan Maharaj Sansthan..</h5>
+                <p>Shri Sant Gajanan Maharaj Temple  is located in Shegaon , Maharashtra,.Sant Gajanan Maharaj is regarded as an incarnation of Lord Dattatreya and Lord Ganesha. Shegaon has acquired fame as a pilgrimage center because Shri Sant Gajanan Maharaj lived there. Hindus consider Gajanan Maharaj a saint with miraculous powers. The origins of Shri Sant Gajanan Maharaj are untraceable in history. Shri Sant Gajanan Maharaj took "Samadhi" at Shegaon. Shri Sant Gajanan Maharaj Temple is built on the Samadhi of Gajanan Maharaj at Shegaon. Sant Gajanan Maharaj Sansthan is the biggest temple trust in the Vidarbha region and is so called as "Pandharpur of Vidarbha". It attracts pilgrims from all over Maharashtra 
+                </p>
+ 
+                <p>The Gajanan Maharaj Sansthan (Institution) Temple Trust runs the day to day affairs of the Temple; is headed by the Managing Trustees who normally comes from the line of Patil's. Trust runs many services in the spiritual, religious, medical and educational fields. In particular, it runs Shri Sant Gajanan Maharaj College of Engineering a famous Engineering College in Vidarbha region.      
+                   </p>
+                
+                <p>Shri Sant Gajanan Maharaj Temple in Mumbai and Navi Mumbai :- Mumbai City has several temples . Bandra East (Govt Colony Near Y type Qtrs) , Vile parle East on Tejpal Scheme Road No 3, Mahim Kapad Bazar, Goregaon West Siddhartha Nagar and Unnat Nagar, Borivali East, Ghatkopar , DY Patil College in Nerul, Vashi and Dadar West. The Idol in Siddharth Nagar is marvellous. It is worth going miles to see.</p>
+                
+                 <i class="images">
+                     <img src="Buldhana/Gajanan1.jpg" width="300" height="200" sizes="50">
+                  <br><br>
+                    <img src="Buldhana/Gajanan2.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                    <img src="Buldhana/Gajanan3.jpg" width="300" height="200" sizes="50">
+                 </i>
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>
+                <h3>Rajur Ghat</h3>
+                <br>
+                <h5>Location: Rajur Maharashtra 443103. </h5>
+                <h5>Way to reach:buses, taxis and auto will reach you here from any point in the city. </h5>
+                <h5>Near by attraction: :  Big Necklace Point Satpuda Ghat &  Ghat nandra ghat and hills.</h5>
+                <p>The Rajur Ghat on the road of Buldhana-Malkapur, adjacent to the city is full of natural beauty and various temples, and rivers in the area have added beauty to nature.The Buldhana city situated on the hill of Ajantha, due to Alaikic beauty and a place of cold air, the British had started the district work since its reign. During the independence, the city of Buldhana got the status of district. Though today the population has increased in a big way, the natural beauty surrounding the city is hushing tourists in the area every year.</p>
+                
+                <p>Whenever going to Malkapur from Buldhana city, there is the temple of Venkatagiri Balaji first of all. The replica of Balaji in Tirumala is made here and there are hills in the area. There is a Sankatmochan Hanuman Mandir at Rajur Ghat on one turn. From this place the beauty of the hill town of Buldhana and the beauty of the hill of Rajur can be found. Then there is the Durgama Temple in the valley while going to Rajur village in Motala taluka.</p>
+                
+                <p> In the area around the deep water reservoir, a green shawl covered with mountains everywhere and a large number of water from the Nalganga dam in front of the city of Motala added more to the nature. From this place you get different experience while taking the view of sunrise and sunset. Then there is a temple of Lord Shiva situated in front of Mohegaon and 15 feet deep in the underground land. In this area, water from Nalganga river will be filled with heavy water. Every year, during the month of Shravan, the beauty of the hills of Ajintha in the city of Buldhana is known to tourists. In this place, visiting tourists from other districts do not live without the love of nature.</p>
+                
+                <i class="images">
+                    <img src="Buldhana/Rajur1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Buldhana/Rajur2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Buldhana/Rajur3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Lonar Crater Lake</h3>
+                <br>
+                <h5>Location:  Buldhana district, Maharashtra, India</h5>
+                <h5>Way to reach:  public transport service is available </h5>
+                <h5>Near by attractions: Lonar Lake View Tower & मनुदेवी पाझर तलाव</h5>
+                <p>Lonar lake is a lake of lagoon in Buldhana district of Maharashtra state. It was created due to a meteorite. It is the only major hoverback in the basalt rock. Its water is alkaline. Lonar Lake has been declared as Wildlife Sanctuary for the conservation and conservation of Lonar lake. There are temples around 1250 years ago. Of these, 15 temples are in reversal. The formation of the lake is believed to have been 52,000 ± 6,000 years ago. But in a research paper published in 2010, the age of the lake is estimated at 570,000 ± 47,000 years.Organizations such as the Smithsonian Institution, United States Geographic Survey in America and the Geological Society of India, Physical Research Laboratory of India have done a lot of research on this lake. 
+                    </p>
+                <p>  The crater's age is usually estimated to be 52,000 ±6,000 years, although a study published in 2010 suggests an age of 570,000 ± 47,000 years.
+ 
+                    The Smithsonian Institution, the United States Geological Survey, Geological Survey of India, the University of Sagar and the Physical Research Laboratory have conducted extensive studies of the site. Biological nitrogen fixation was discovered in this lake in 2007  </p>
+                   
+                <i class="images">
+                    <img src="Buldhana/Lonar1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Buldhana/Lonar2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Buldhana/Lonar3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Dnyanganga Sanctuary</h3>
+                <br>
+                <h5>Location:  Gerumatargaon, Maharashtra 443001</h5>
+                <h5>Way to Reach: : public transport option: buses, taxis and auto will reach you here from any point in the city </h5>
+                <h5>Neraby attraction: Gautala Autramghat Sanctuary & Dnyanganga abhayaranya</h5>
+ 
+                <p>Gyan Ganga Wildlife Sanctuary is situated in Buldhana Khamgaon State Road, in Buldhana district, with 205 sq. Ft. spread in the area. The Boetha village, which is in the area of this sanctuary, is the old village</p>
+                
+                <p> The Dnyanganga Wildlife Sanctuary is situated 28 km from Buldhana and 20 km from Khamgaon town of Maharashtra. It is in Buldhana District, near the Dnyanganga River. There are two lakes within the 205 sq km sanctuary. Leopards, sloth bears, barking deer, blue bulls, spotted deer, hyenas, jungle cats and along with jackals give more attraction. About 150 species of birds are there. The ideal time to visit the sanctuary is throught the year. Wild animals are best sighted from February to May. The terrain is undulating, interspersed with hillocks having gentle slopes. Managed by the Office of Field Director- Melghat Tiger Reserve, Maharashtra Forest Department, The Sanctuary is a natural habitat for various animals and bird species of which many were seasonal that came from different parts of the country. Botha gate of Dnyanganga Wildlife Sanctuary is reachable by road from Khamgaon on the Khamgaon- Buldhana road. Shegaon is the nearest railway station, on Nagpur-Mumbai main line.
+ 
+                </p>
+                <br>
+        
+                <i class="images">
+                    <img src="Buldhana/San1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Buldhana/San2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Buldhana/San3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Rajmata Jijau Birthplace, Sindkhed Raja</h3>
+                <br>
+                <h5>Location: Sindkhed Raja, Maharashtra 443203 </h5>
+                <h5>Way to reach: public transport option: buses, taxis and auto will reach you here from any point in the city. </h5>
+                <h5>Nearby attraction: Rajmata Jijau Statue & Jijau Srushti. </h5>
+                <p>Jijamata, (Rajmata Jijau) was born on 12 January in 1598, at Sindhkhedra in Buldhana district. Rajmata Jijau was the Matoshree of Chhatrapati Shivaji Maharaj, the founder of the Hinduvi empire.Today this place is not only a historical place but also a tourist destination. Jijau Maa Saheb was born on 12 January 1598 in the Bhuikot palace. The Rajwada, which has an impressive grand entrance, is situated near the Mumbai-Nagpur highway in Sindhkhed Raja. There is also a garden built in the same area of ​​municipality. Here is the place of worship of Lakhujirao Jadhav. This magnificent thing is bigger than the whole Hindu Rashtra Samadhi of India. The place where Jijau played the color is the palace of the palace. In this Mahal, the marriage of ShahajiRaje and Jijau was discussed.</p>
+                
+                <p>Here is the ancient temple of Nilkanteshwar, the inscription inscribed by the King Lakhujirao Jadhav for the revival of the temple. In front of this temple there is a massive bar arranged by stairs to the bottom of the square. The Hemadpanthi Rameshwar Temple is in the 8th to the 10th century.
+                    A beautiful example of the formation of the great forts during the tenure of Rajerao Jagadevrao Jadhav was that of Kalkoth. The timeless walls of this superb and strong, are 20 feet wide and the same height. In addition to this, there is a 40-foot-tall walled fort called Sachkarwada, which can be seen on an intersection, there are internal roads, well inside, wells, sub-basement and subway. So the entrance of this object is also very beautiful.</p>
+                
+                
+                <i class="images">
+                    <img src="Buldhana/Jija1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Buldhana/Jija2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Buldhana/Jija3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+      function _class(name)
+   {
+return document.getElementsByClassName(name);
+   }
+ 
+let tabPanes = _class("start")[0].getElementsByTagName("div");
+ 
+for(let i=0;i<tabPanes.length;i++)
+{
+tabPanes[i].addEventListener("click",function()
+{
+    _class("start")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+    tabPanes[i].classList.add("active");
+ 
+    _class("tab-indicator")[0].style.top = 'clac(80px + ${i*5}px';
+ 
+    _class("tab-content")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+ 
+    _class("tab-content")[0].getElementsByTagName("div")
+    [i].classList.add("active");
+});
+}
+    </script>
+    <!--ended-->
+    <!--this code is for cuisine section-->
+     <section class="taglineofcuisine">
+        <img src="taglinelogoofcuisine.jpg" width="150" height="150" sizes="50">
+       <h3>Here is the cuisine of the district</h3>
+       </section>
+        <section class="bodyofcard" id="cuisinediv">
+         <div class="container2">
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Buldhana/Kachori.jpg" width="600" height="250"  alt="">
+              </div>
+              <div class="content">
+                  <h2>Shegaon Kachori</h2>
+                  <p>Gravy dish of Dal and local green leafy vegetable.<p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Buldhana/Kalvan.jpg"width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Kalvan</h2>
+                  <p>Kalvan is curry which is prepared by various pulses. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Buldhana/Zunka.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Zunka</h2>
+                  <p>Zunka is spicy food which is prepared by grains. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="IMAGES/puranpoli.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Khaprawarche Manudevi</h2>
+                  <p>It is a puran Poli which is cooked on Khapar, an Earthen pot. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Buldhana/Chat.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Kachori chat</h2>
+                  <p> Flour and dough filled with stuffing of yellow moong daal, black paper, red chili powder % ginger paste. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="IMAGES/sabudanakhichadi.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Sabudana Khichadi</h2>
+                  <p>Sabudana Khichadi is what for buldhana is famous. It is food item that is specialy prepared for Upawas.</p>
+              </div>
+          </div>
+          </div>
+  </section>
+  <!--ended-->
+  <!--this code is for shopping attractions-->
+     <section class="taglineofshopping">
+       <img src="taglineofshopping.png" width="150" height="150" sizes="50">
+       <h3>Lets do some shopping from the district !</h3>
+    </section>
+   <section class="shoppingattractions" id="shoppingdiv">
+      <div class="container4"> 
+          <div class="box1">
+              <img src="shopback.jpg" width="600" height="100" alt="">
+             <div class="content1">
+                <h4>Talekar handlooms </h4>
+                <p> Address: Chaitanyawadi, Buldana, Maharashtra 443001
+                </p>
+                <p>Timing: 24*7
+                </p>
+             </div>
+           </div>
+          <div class="box1">
+              <img src="shop2.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Friend's Complex</h4>
+                <p>Address: at National highway, 06, Jalgaon Jamod Rd, opp Petrol Pump, Nandura, 443404 
+                </p>
+                <p> Timing: open 24 hours
+                </p> 
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop3.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Nutan Collection, Buldhana</h4>
+                <p>Address:Buldana, Maharashtra 443001
+                </p>
+                <p>Timing: 10 am to 8 pm
+                </p> 
+              </div>
+            </div>
+  </div>
+         <div class="container5">
+           <div class="box1">
+              <img src="shop4.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Padole Jewellers,shegaon </h4>
+                <p>Address: Shop no.6 Sai Gajanan Tower, Tq. shegaon Dist. (MS) MS, Shegaon, Maharashtra
+                </p>
+                <p>Timing: Open at 9:30 am
+                </p>
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop5.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>PARAGON SHOWROOM BULDHANA</h4>
+                <p>Address: Chikhali Rd, near SBI Sunderkhed, Rajmata Nagar, Milind Nagar, Buldana, Maharashtra 443001
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p>
+              </div>
+            </div>
+           <div class="box1">
+              <img src="lakshmiroad.jpg" width="600" height="200" alt="">
+               <div class="content1">
+                <h4>Dr. Rameshchand Begani shopping complex</h4>
+                <p>Address: Nagpur - Aurangabad Hwy, Deulgaon Mahi, Maharashtra 443206
+                </p>
+                <p>Timing: 10am to 8.30pm.
+                </p> 
+              </div>
+           </div>
+         </div>
+   </section>
+   <!--ended-->
+   <!--this code is for other districts-->
+    <section class="lookfor">
+        <img src="searchicon.png" width="200" height="150" sizes="50">
+      <h3>You may also look for other districts !</h3>
+    </section>
+     <section class="otherdistricts">
+         <div class="container7">
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>01</h2>
+                      <h3>Akola</h3>
+                      <p>Akola district is situated in the middle east of Maharashtra state. This district is situated between North 20.17 to 21.16 latitude and East  76.7 to 77.4 longitude</p>
+                      <p><h4>It is 249 KM from Buldhana</h4></p>
+                      <a href="">Explore</a>
+                  </div>
+              </div>
+            </div>
+           <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>02</h2>
+                      <h3>Washim</h3>
+                      <p>Washim is located in the eastern region of Vidharbha. Akola lies to its north, Amravati lies to its north-east, Hingoli lies to its south, Buldhana lies to its west, Yavatmal lies to its east</p>
+                      <p><h4>It is 141.9 KM from Buldhana </h4></p>
+                      <a href="">Explore</a>
+                  </div>
+              </div>
+            </div>
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>03</h2>
+                      <h3>Amravati</h3>
+                      <p>The ancient name of Amravati is “Udumbravati”, prakrut form of this is “Umbravati” and “Amravati” is known for many centuries with this name. The mispronunciation form of this is Amravati and now the Amravati is known with the same </p>
+                      <p><h4>It is 200.3 KM from Buldhana</h4></p>
+                      <a href="">Explore</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </section>
+     <!--ended-->
+   <!--this is code for handles-->
+              <section class="handles1">
+                <img src="internet.png" width="100" height="100" sizes="50">
+                <h5>Connect with us on our Social Handles!</h5>
+            </section> 
+            
+          <div class="handles">
+               <a href="https://www.instagram.com/mhtravel2121/%E2%80%8B"><img src="instagram.png" width="200" height="200"></a>
+               <a href="https://www.facebook.com/MH-Travel-10"><img src="facebook.png" width="200" height="200" ></a>
+               <a href="https://www.youtube.com/watch?v=BHzAPZEsYHU&t=92s"><img src="youtube.png" width="200" height="200"></a>
+               <a href="https://chat.whatsapp.com/CtJ0qi4FuyNCQ6U1hCcYj1"><img src="whatsapp.png" width="200" height="200"></a>
+               
+          </div> 
+
+          <section class="footer">
+            <div class="row">
+               <div class="col0">
+                 <img src="logo 3.png" width="300" height="230">
+                 <h4>Magnificient Maharashtra</h4>
+               </div>
+                
+                
+                <div class="col1">
+                    <h3>Explore divisions</h3>
+                    <br>
+                    <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html">Kokan division</a>
+                    <br>
+                    <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nashik.html">Nashik division</a>
+                    <br>
+                    <a href="file:///C:/Users/LENOVO/Desktop/my%20project/amaravatidivision.html">Amaravati division</a>
+                    <br>
+                    <a href="file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html">Aurangabad division</a>
+                    <br>
+                    <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nagpurdivision.html">Nagpur division</a>
+                    <br>
+                    <a href="file:///C:/Users/LENOVO/Desktop/my%20project/punedivision.html">Pune division</a>
+                </div>
+                <div class="col2">
+                    <h3>Other websites links</h3>
+                    <br>
+                    <a href="https://www.india.gov.in
+                    ">Government of India</a>
+                    <br>
+                    <a href="https://www.maharashtra.gov.in/1125/home">Government of Mharashtra</a>
+                    <br>
+                    <a href="https://www.tourism-of-india.com/maharashtra">Tourism in Maharashtra</a>
+                    <br>
+                    <a href="https://www.maharashtratourism.gov.in">Maharashtra tourism</a>
+                    <br>
+                    <a href="www.mahapolice.gov.in
+                    ">Maharashtra state Police</a>
+                    <br>
+                    <a href="https://msrtc.mahaonline.gov.in">MSRTC</a>
+                    
+                </div>
+                <div class="col3">
+                    <h3>Explore India</h3>
+                    <br>
+                    <a href="https://www.gujarattourism.com">Gujarat tourism</a>
+                    <br>
+                    <a href="https://www.goa-tourism.com
+                    ">Goa tourism</a>
+                    <br>
+                    <a href="https://www.karnatakatourism.org
+                    ">Karnatak tourism</a>
+                    <br>
+                    <a href="https://tourism.ap.gov.in">Andhrapradesh tourism</a>
+                    <br>
+                    <a href="https://www.mptourism.com
+                    ">Madhyapradesh tourism</a>
+                    <br>
+                    <a href="https://chhattisgarhtourism.in
+                    ">Chhatisgad tourism</a>
+
+                </div>
+            </div>
+            <h1>&copy; copyright @ 2021 by <span> MH Travel</span></h1>
+        </section>
+</body>
+</html>
+ 

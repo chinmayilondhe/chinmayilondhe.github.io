@@ -1,0 +1,321 @@
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("tajpalace.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-sizing: border-box;
+
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background:rgba(0,0,0,0.2);
+    color: white;
+    display: flex;justify-content: space-between;
+    align-items: center;text-transform: uppercase;
+    background-image: url(logo\ 3.png);
+    }
+    nav .logo{
+        
+        align-content: flex-start;
+        shape-image-threshold: initial;
+        size: 50px;
+        
+        display: block;
+        
+    }
+    nav .menu{
+        nav .menu{
+            width: 20%;
+            display: flex; justify-content: space-around;
+            padding: auto;
+        }
+        
+    }
+    nav .menu a{
+    width: 50%;
+    text-decoration: none;color: white;
+    font-weight: bold;
+    }
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col {
+    flex-basis: 50%;
+
+}
+.tagline {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.tagline1 h2 {
+    font-family: cursive;
+    font-size: 20px;
+}
+.tagline1{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+    
+    
+    background-size: cover;
+}
+
+
+
+h1 {
+    color:white;
+    font-size: 100px;
+    font-family: cursive;
+    
+}
+h6 {
+    font-size: large;
+    font-family: cursive;
+    font-weight: 200;
+    color: white;
+    
+    size: 70px;
+}
+.card {
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    border: 15px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 60px 50px;
+    align-content:center;
+    border-radius: 15px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s ;
+
+}
+.card1 {
+    background-image: url(kok.jpg);
+    font-size: 50px;
+    color: white;
+    text-shadow: #777;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+}
+ h5:hover {
+    color:deeppink;
+    font-style: italic;    
+}
+ a {
+    color: #fff;
+    font-style: none;
+    text-shadow: 2px #777;
+}
+.card2 {
+    background-image: url(nas.jpg);
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: #777;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.card3 {
+    background-image: url(pu.jpg);
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: #777;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.card4 {
+    background-image: url(aur.jpg);
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: black;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.card5 {
+    background-image: url(ama.jpg);
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: #777;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.card6 {
+    background-image: url(nag.jpg);
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: #777;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+label {
+    position: relative;
+    margin: 0 -35px;
+    display: inline-block;
+    width: 170px;
+    height: 250px;
+    line-height: 200px;
+    color: #ddd;
+    font-size: 2em;
+    border-radius: 5px;
+    box-shadow: 0 10px 6px #777;
+    -webkit-transform: skew(-20deg) rotate(-20deg);
+    transform: skew(-20deg) rotate(-20deg);
+    -webkit-transform: .3s;
+    transform: .3s;
+}
+label:nth-of-type(1){
+    background-image: url(raje.jpg);
+    background-size: cover;
+
+}
+label:nth-of-type(2){
+    background-image: url(elephanta.jpg);
+    background-size: cover;
+
+}
+label:nth-of-type(3){
+    background-image: url(cst.jpg);
+    background-size: cover;
+
+}
+label:nth-of-type(4){
+    background-image:  url(saitemple.jpg);
+    background-size: cover;
+}
+label:nth-of-type(5){
+    background-image: url(taj.jpg);
+    background-size: cover;
+
+}
+label:nth-of-type(6){
+    background-image: url(ajanta.jpg);
+    background-size: cover;
+    shape-image-threshold: unset;
+
+}
+label:nth-of-type(7){
+    background-image: url(tadoba.jpg);
+    background-size: cover;
+
+}
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked ~ label{
+    -webkit-transform: skew(20deg) rotate(20deg);
+    transform: skew(20deg) rotate(20deg);
+}
+input[type="radio"]:checked + label{
+    margin: 0 50px;
+    -webkit-transform: none;
+    transform: none;
+}
+.card-slider {
+    margin: 60px auto;
+    text-align: center;
+}
+.handles {
+    
+    align-items: justify;
+    display: flex;
+    align-content: justify;
+    padding-left: 23%;
+    padding-right: 8%;
+    
+    padding-bottom: 4%;
+    
+}
+h2 {
+    
+    
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color:#fff;
+    font-family: cursive;
+    size: 200px;
+    
+    
+    font-size: 40px;
+    font-weight: 400;
+    text-align: justify;
+    align-items: center;
+    
+        
+    
+}
+@keyframes changetext{
+0%{content:"welcome !";}
+20%{content:"સ્વાગત છે !";}
+40%{content:"ಸ್ವಾಗತ !";}
+60%{content:"ਸਵਾਗਤ ਹੈ !";}
+80%{content:"স্বাগত !";}
+100%{content:"नमस्कार !";}
+
+
+}
+.menu a:hover{
+    color: aqua;
+}
+
+.view a {
+    
+    padding: 12px 15px;
+    border-radius: 4px;
+outline: none;
+text-transform: uppercase;font-size: 13px;
+font-weight: 500;
+text-decoration: none;
+letter-spacing: 1px;
+transition: all .5s ease;
+}
+.button1  {
+    color: #000;
+    font-family: cursive;
+    background-color: darkorange;
+}
+.button1:hover{
+    color: red;
+    background-color:aqua ;
+}
+.view{
+    align-items:center;
+    text-align: center;
+}

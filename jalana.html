@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalna</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="jalana.css">
+    <link rel ="shortcut icon" href = "favicon.png" type ="image/x-icon">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <div class="logo">
+              <a href=file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html><img src="logo 3.png" width="600" height="400" size="200"></a>
+          </div>
+          
+           <div class="nav-links">
+              <ul>
+                <li><a href="#destinationsdiv">Destinations</a></li>
+                <li><a href="#cuisinediv">Cuisine</a></li>
+                <li><a href="#shoppingdiv">Shopping Attractions</a></li>
+              </ul>
+          </div>
+        </nav>
+        <div class="text-box">
+          <h1>JALNA</h1> 
+           <p><b><em>The Seed and Steel Capital of Maharashtra</em></b></p>
+        </div>
+   </section>
+        <section class="information">
+           <p> <b><em> Jalna district is approximately situated at the center part of Maharashtra state of Republic of India and in northern direction of Marathwada region.
+
+            Jalna was formerly a part of Nizam State and after the Marathwada Mukti Sangram, became part of India, as a tahsil of Aurangabad district.
+            
+            Jalna district erstwhile a part of Aurangabad district was formed on 1st May 1981 by carving out Jalna, Bhokardan, Jafrabad, Ambad tahsils of Aurangabad district and Partur tahsil of Parbhani district.The boundaries of Jalna district are adjacent to Parbhani & Buldhana on east, Aurangabad on west, Jalgaon on north and Beed on south.Jalna district covers an area of 7,612 Sq.Kms, which is 2.47% of the total state area.
+            
+            The district head quarter is at Jalna & well connected to state capital and national capital by broad gauge railway line. Major towns of the state are also connected by state highways. Jalna district is well known for it’s hybrid seed industries, steel re-rolling mills, bidi industry & agro based industries like dal mill. The district is also known for the highest production of Sweet Lemon(Mosambi) in the state.
+            <span id="dots">...</span><span id="more">
+            
+            The peoples of Jalna district played a important role in the Marathwada MuktiSangram, in which Shri. Janardan Mama Nagapurkar of Jalna laid down his life for motherland.
+            Jalna is the biggest producer of sweet lemons and oranges in Maharashtra.
+
+            Jalna is the biggest steel producer in Maharashtra state, with many steel companies located in the Maharashtra Industrial Development Corporation (MIDC) area.</span> </em></b> </p>
+        </section>
+        <button type="button" id="read" onclick="read()">Read more</button>
+          <script type="text/javascript">
+           var j=0;
+           function read(){
+              if(!j){
+                 document.getElementById("more").style.
+                 display = "inline";
+                 document.getElementById("dots").style.
+                 display  = "none";
+                 document.getElementById("read").innerHTML=
+                 "Read less";
+                 j=2;
+            }
+              else{
+                  document.getElementById("more").style.
+                  display = "none";
+                  document.getElementById("dots").style.
+                  display  = "inline";
+                  document.getElementById("read").innerHTML=
+                  "Read more";
+                  j=2;
+            }
+         }
+       </script>
+       <!--this is code for population and other area literacy rate-->
+       <section class="population">
+       <div class="container1">
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="populationicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>POPULATION</h3>
+                        <h4>3.86 Lakhs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <br>    
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="areaicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>AREA</h3>
+                        <h4> 81.6 km²</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>     
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="literacyicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>LITERACY RATE</h3>
+                        <h4>73.61%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--end-->
+<!--this is code for destination slider-->
+<section class="taglineofdestination">
+    <img src="destinationslogo.png" width="150" height="150" sizes="50" >
+     <h3> Here are the destinations for you !</h3>
+</section> 
+<section class="destinations" id="destinationsdiv">
+    <div class="tabs">
+        <div class="start">
+            <div class="active">
+                <i class="fa fa-code"></i>Guru Ganesh Dham
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>Matsyodari Temple
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Rajur Ganesh Temple
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Jamb Samartha
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Mazaar-E-Maulai 
+            </div>
+        </div>
+        <div class="tab-indicator"></div>
+        <div class="tab-content">
+            <div class="active">
+                <i class="fa fa-code"></i>
+                <h3>Guru Ganesh Tapodham</h3>
+                <br>
+                <h5>LOCATION: Located in Middle of the city.</h5>
+                <h5>WAY TO REACH: Once reached Jalna can easily visit it by auto-rickshaws or City Buses. </h5>
+                <h5>NEARBY ATTRACTIONS: Shivaji Statue , Matsyodari Temple</h5>
+                <p><b><em>Guru Ganesh Tapodham is an important holy place of Jain peoples in the Jalna city.</em></b></p>
+                <p><b><em> Guru Ganesh is also known as Karnatak Kesari. The jain trust ‘Shri Vardhaman Sthankwasi Jain Shravak Sangh’ is looking after the development of this holy place.This trust is also running institutions viz. schools, school for blinds, library and Gaushala. The Guashala is largest one in whole Marathwada region
+                </em></b></p>
+                <i class="images">
+                    <img src="images/guru ganesh 1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="images/guru ganesh 2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="images/guru ganesh 3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+             <div>
+                <i class="fa fa-bar-chart"></i>
+                <h3>Matsyodari Devi Temple, Ambad</h3>
+                <br>
+                <h5>LOCATION: The temple is 26 km away from Jalna city situated in the town of Ambad.</h5>
+                <h5>WAY TO REACH: Best way to reach is using local transport or by hiring a private taxi to Ambad.</h5>
+                <h5>NEARBY ATTRACTIONS: Ghanewadi Lake</h5>
+                <p><b><em>The Matsyodari Devi Temple of Ambad situated in south 21 km away from Jalna city. Matsyodari, so called because the temple is on the hill which resembles the shape of a fish (matsya).  It is believed to be one of the oldest temples in  the region.</em></b></p>
+                <p><b><em>A largely attended annual fair is held at the temple in October, in Navratra.</em></b></p>
+                <br>
+                <i class="images">
+                    <img src="images/matsyodaritemple1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="images/matsyodaritemple2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="images/matsyodaritemple3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Shri Ganesh Temple,Rajur</h3>
+                <br>
+                <h5>LOCATION: Situated 30 km away from Jalna city.</h5>
+                <h5>WAYS TO REACH: Regular buses available from Jalna.</h5>
+                <h5>NEARBY ATTRACTIONS: Rajur ganpati Garden</h5>
+                <p><b><em>The Ganesh Temple of Rajur is situated in north 25 k.m. away from Jalna city. On every Chathurthi lots of pilgrims comes to pray the deity. A largely attended fair is held at the temple on Angarika Chaturthi.</em></b></p>
+                <p><b><em>The Rajur is considered as one of the complete PITH of Lord Ganesh in Ganesh Puran. Other PITH are at Morgaon, Chinchwad (Pune). The remaining HALF PITH is Padmalaya.
+ The temple is under the renovation and it is in completion stage.</em></b></p>
+                <i class="images">
+                    <img src="images/rajurganeshtemple1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="images/rajurganeshtemple2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="images/rajurganeshtemple3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Jamb Samartha, Ghansawangi</h3>
+                <p><b><em>Jamb Samarth, the place where the Sant Ramdas Swami born. This place is in Ghansavangi tahsil of Jalna district.
+                        The Samartha Ramdas was born on Chaitra Shukla Navami Shake 1530 (as per hindu Calender) at 12 P.M., exactly on the time of Ram Janma (Lord Rama’s birth) as the younger son of Suryajipant Thosar Kulkarni and Ranubai. His actual name was ‘Narayan’.</em></b></p>
+                <br>
+                <p><b><em>The Elder brother of Sant Ramdas swami was Gangadhar but he is known as ‘Shreshtha’ or ‘Rami Ramdas’. He was born on Margashirsha Vadya Trayodashi Shake 1527.The Samrtha temple is built in the meory of Sant Ramdas swami. This temple is managed bya trust which was registered in 1943 by Nanasaheb Dev. The trust comprises 55 members and 11 trusties. Now this trust has its onw land of 240 Hector.</em></b></p>
+                <br>
+                <p><b><em>A largely attended annual fair helds at the Ram temple On Ram Navami. This Ram temple is situated in Sant Ramdas swami’s home.</em></b></p>
+                <br>
+                <i class="images">
+                    <img src="images/jambsamarth1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="images/jambsamartha2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="images/jambsamarth3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Mazaar-E-Maulai Noorudin Saheb</h3>
+                <p><b><em>The Mausoleum of Moulai Nuruddin named Mazaar-E-Maulai is at At Dongaon Tq.Ambad. Moulai Nuruddin was the a “Walī al-Hind” (representative/caretaker for India) of Dawoodi Bohra dawat, was designated by the Dā’ī, the center of Yemen to run the dawat in India. Moulai Nuruddin went to Cairo, Egypt, to learn, and went to India in 467 AH. and went to the Deccan. He died on Jumadi al-Ula 11 at Dongaon Tq.Ambad, Dist.Jalna.</em></b></p>
+                <br>
+                <i class="images">
+                    <img src="images/mazaremaulai1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="images/mazaremaulai2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="images/mazaremaulai3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+      function _class(name)
+   {
+return document.getElementsByClassName(name);
+   }
+
+let tabPanes = _class("start")[0].getElementsByTagName("div");
+
+for(let i=0;i<tabPanes.length;i++)
+{
+tabPanes[i].addEventListener("click",function()
+{
+    _class("start")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+    tabPanes[i].classList.add("active");
+
+    _class("tab-indicator")[0].style.top = 'clac(80px + ${i*5}px';
+
+    _class("tab-content")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+
+    _class("tab-content")[0].getElementsByTagName("div")
+    [i].classList.add("active");
+});
+}
+    </script>
+    <!--ended-->
+    <!--this code is for cuisine section-->
+     <section class="taglineofcuisine">
+        <img src="taglinelogoofcuisine.jpg" width="150" height="150" sizes="50">
+       <h3>Let's have a look at cuisines of the district</h3>
+       </section>
+        <section class="bodyofcard" id="cuisinediv">
+         <div class="container2">
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/kothimbirvadi.jpg" width="600" height="250"  alt="">
+              </div>
+              <div class="content">
+                  <h2>Kothimbir Vadi</h2>
+                  <p><em>In marathi kothimbir means coriander which plays a significant role in this recipe and hence the name of this dish as kothimbir vadi. served as sider with masala chai.</em> <p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/spongedosa.jpg"width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Sponge Dosa</h2>
+                  <p>Sponge dosa or set dosa is one of the popular breakfast served in fast food centers or tiffin centers in jalna.</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/pav bhaji.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Pav Bhaji</h2>
+                  <p> It is an immensely gratifying meal, that will transport you to gastronomical bliss. Pav Bhaji is a wholesome satisfying weeknight dinner. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/bhojthali.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Bhoj Thali</h2>
+                  <p>Whether lunch or dinner Bhoj Thali is the most inexpensive, value for money and best quality food and combination.  </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/mango mastani.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Mango Mastani</h2>
+                  <p> Mango mastani is rich and satisfying as a dessert, you will be blown away with the simplicity and ease with which its made as well with its rich intense mango flavor. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="images/lemon soda.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Lemon Soda</h2>
+                  <p>Lemon Soda is one of the best thirst quencher for summer. One should try it with both sugar and salt. </p>
+              </div>
+          </div>
+          </div>
+  </section>
+  <!--ended-->
+  <!--this code is for shopping attractions-->
+     <section class="taglineofshopping">
+       <img src="taglineofshopping.png" width="150" height="150" sizes="50">
+       <h3>Lets do some shopping from the district !</h3>
+    </section>
+   <section class="shoppingattractions" id="shoppingdiv">
+      <div class="container4"> 
+          <div class="box1">
+              <img src="shopback.jpg" width="600" height="100" alt="">
+             <div class="content1">
+                <h4>D Mart</h4>
+                <p> Address: At. Mantha bypass Road near, Chaudhary Nagar, Jalna, Maharashtra 431203.
+                </p>
+                <p>Timing: 9am to 8pm.
+                </p>
+             </div>
+           </div>
+          <div class="box1">
+              <img src="shop2.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Laxmi Super Market</h4>
+                <p>Address: Bhokardan Road, Opposite to Aastha Hospital, saklecha ng, Jalna.
+                </p>
+                <p> Timing: 10am to 9pm.
+                </p> 
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop3.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Dwarka Super Market</h4>
+                <p>Address: R.P. Road, near Ram Mandir Chowk,Jalna -431203.
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p> 
+              </div>
+            </div>
+  </div>
+         <div class="container5">
+           <div class="box1">
+              <img src="shop4.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Pariwar Mall</h4>
+                <p>Address: Nagar, Old, near Gopi-Kishan nagar, Mondha, Jalna, Maharashtra
+                </p>
+                <p>Timing: 8am to 10pm.
+                </p>
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop5.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>First Needs</h4>
+                <p>Address: Sambhaji Nagar,Jalna, Maharashtra 415612.
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p>
+              </div>
+            </div>
+           <div class="box1">
+              <img src="lakshmiroad.jpg" width="600" height="200" alt="">
+               <div class="content1">
+                <h4>Shri krishna Super Shopee</h4>
+                <p>Address: Shivaji Statue,Jalna, Maharashtra 415639.
+                </p>
+                <p>Timing: 10am to 8.30pm.
+                </p> 
+              </div>
+           </div>
+         </div>
+   </section>
+   <!--ended-->
+   <!--this code is for other districts-->
+    <section class="lookfor">
+        <img src="searchicon.png" width="200" height="150" sizes="50">
+      <h3>You may also look for other districts !</h3>
+    </section>
+     <section class="otherdistricts">
+         <div class="container7">
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>01</h2>
+                      <h3>Beed</h3>
+                      <p>Beed is a historical city of possibly medieval origin of India.It is situated on the Deccan Plateau, on the banks of the Bensura river. Bensura is a sub-tributary of Godavari river originating in the hills of Balaghat range. </p>
+                      <p><h4>It is 125 KM from Jalna</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/beed.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+           <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>02</h2>
+                      <h3>Parbhani</h3>
+                      <p>Parbhani is one of the Eight districts in the Marathawada region of Maharashtra State. It is well connected by road to other major towns in Maharashtra and also in the neighboring state of Andhra Pradesh.
+                    </p>
+                      <p><h4>It is 197 KM from Jalna</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/parbhani.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>03</h2>
+                      <h3>Latur</h3>
+                      <p>Latur is a district in Maharashtra state of India. It is the 16th largest city in Maharashtra with district headquarter located in the city. The district comes under Marathwada region of Maharashtra. </p>
+                      <p><h4>It is 265 KM from Jalna</h4></p>
+                      <a href="file:///C:/Users/LENOVO/Desktop/my%20project/latur.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </section>
+     <!--ended-->
+   <!--this is code for handles-->
+              <section class="handles1">
+                <img src="internet.png" width="100" height="100" sizes="50">
+                <h5>Connect with us on our Social Handles!</h5>
+                </section>
+            <div class="handles">
+              <a href="https://instagram.com/mhtravel2121?igshid=1ud8vgc9lmbsp"><img src="instagram.png" width="200" height="200"></a>
+              <a href="https://www.facebook.com/MH-Travel-102684151953207/"><img src="facebook.png" width="200" height="200" ></a>
+              <a href="https://www.youtube.com/watch?v=BHzAPZEsYHU&t=92s"><img src="youtube.png" width="200" height="200"></a>
+              <a href="https://chat.whatsapp.com/CtJ0qi4FuyNCQ6U1hCcYj1"><img src="whatsapp.png" width="200" height="200"></a>
+              
+         </div> 
+             </section>
+         <section class="footer">
+           <div class="row">
+              <div class="col0">
+                <img src="logo 3.png" width="300" height="230">
+                
+                <h4>Magnificient Maharashtra</h4>
+              </div>
+               
+               
+               <div class="col1">
+                   <h3>Explore divisions</h3>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/kokan.html">Kokan division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nashik.html">Nashik division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/amaravatidivision.html">Amaravati division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/aurangabaddivision.html">Aurangabad division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/nagpurdivision.html">Nagpur division</a>
+                   <br>
+                   <a href="file:///C:/Users/LENOVO/Desktop/my%20project/punedivision.html">Pune division</a>
+               </div>
+               <div class="col2">
+                   <h3>Other websites links</h3>
+                   <br>
+                   <a href="https://www.india.gov.in
+                   ">Government of India</a>
+                   <br>
+                   <a href="https://www.maharashtra.gov.in/1125/home">Government of Mharashtra</a>
+                   <br>
+                   <a href="https://www.tourism-of-india.com/maharashtra">Tourism in Maharashtra</a>
+                   <br>
+                   <a href="https://www.maharashtratourism.gov.in">Maharashtra tourism</a>
+                   <br>
+                   <a href="www.mahapolice.gov.in
+                   ">Maharashtra state Police</a>
+                   <br>
+                   <a href="https://msrtc.mahaonline.gov.in">MSRTC</a>
+                   
+               </div>
+               <div class="col3">
+                   <h3>Explore India</h3>
+                   <br>
+                   <a href="https://www.gujarattourism.com">Gujarat tourism</a>
+                   <br>
+                   <a href="https://www.goa-tourism.com
+                   ">Goa tourism</a>
+                   <br>
+                   <a href="https://www.karnatakatourism.org
+                   ">Karnatak tourism</a>
+                   <br>
+                   <a href="https://tourism.ap.gov.in">Andhrapradesh tourism</a>
+                   <br>
+                   <a href="https://www.mptourism.com
+                   ">Madhyapradesh tourism</a>
+                   <br>
+                   <a href="https://chhattisgarhtourism.in
+                   ">Chhatisgad tourism</a>
+     
+               </div>
+               
+           </div>
+           <h1>&copy; copyright @ 2021 by <span> MH Travel</span></h1>
+       </section>
+       </body>
+       </html>

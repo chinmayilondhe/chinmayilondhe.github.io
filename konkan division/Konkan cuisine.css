@@ -1,0 +1,256 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: capitalize;
+    transition:all .2s linear;
+
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/cuisine\ background1.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+    width:auto;
+    justify-content: space-between;
+    align-items:center;
+    background:rgba(255,255,255,0.1);
+    height: 70px;
+
+}
+nav img{
+    width: 150px;
+
+}
+.nav-links{
+    
+    text-align: right;
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration:none;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.text-box h3{
+    font-size: 57px;
+    color: white;
+}
+.text-box p{
+margin:10px 0 40px;
+font-size: 40px;
+color:white;
+}
+.text-box span{
+color: darkred;
+}
+
+
+.special{
+    background: #000;
+    min-height: 100vh;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+
+}
+.heading h1{
+    color: white;
+    font-size: 3rem;
+}
+.heading p{
+    color: red;
+    font-size: 2rem;
+}
+.card-container{
+    width: 95%;
+    margin: 7rem auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    height: 37rem;
+    width: 30rem;
+    background: #fff;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+.card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.card p{
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+  
+.card a{
+    font-size:2rem;
+}
+.card:hover{
+    transform: scale(.9);
+}
+.header-active{
+    background:#333;
+    height: 6rem;
+    box-shadow: 2rem 0 0.5rem  #000;
+}
+nav ul{
+    margin: 0;
+}
+.dish{
+    min-height: 100vh;
+    width: 100vw;
+}
+.heading1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+
+}
+.heading1 h1{
+    color: black;
+    font-size: 3rem;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 90%;
+}
+.box{
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 .5rem #333;
+
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(51,51,51,.6);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: #fff;
+    transform:scale(0);
+}
+.info h3{
+    font-size: 3rem;
+}  
+.info p{
+    font-size: 1.3rem;
+    border-bottom: .2rem solid yellow;
+    border-top: .2rem solid yellow;
+}
+.box-container .box:hover .info{
+    transform: scaleY(1);
+}
+.footer{
+background: #333;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.footer h1{
+    font-size: 2rem;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+}
+.footer span{
+    color: yellow;
+}
+.icons a{
+font-size: 2rem;
+margin: 2rem 1rem;
+color: #fff;
+}
+.icons a:hover{
+    color: yellow;
+}
+.col{
+    text-align: center;
+    margin-top: 2rem;
+}
+.col1{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    margin: 1rem 0;
+}
+.col1 h3{
+    font-size: 2.2rem;
+    color: yellow;
+}
+.col1 a{
+    color:white;
+    font-size: 1.7rem;
+}

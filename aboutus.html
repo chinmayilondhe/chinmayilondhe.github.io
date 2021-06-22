@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team </title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #12172b;
+}
+.container{
+    margin: 20px 40px;
+    color: white;
+}
+.heading{
+    font-size: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+.heading span{
+    font-style: italic;
+    font-size: 30px;
+}
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+.profiles1{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+.profile{
+    flex-basis: 260px;
+}
+.profile .profile-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter:grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+.profile:hover .profile-img{
+filter: grayscale(0);
+}
+.username{
+    margin-top: 30px;
+    font-size: 35px;
+}
+.profile h5{
+font-size: 18px;
+font-weight: 100;
+letter-spacing: 3px;
+color: #ccc;
+}
+.profile p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+nav{
+    display: flex;
+    width:auto;
+    justify-content: space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.9);
+    height: 70px;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    text-align: right;
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration:none;
+    font-size:20px ;
+    font-weight: bolder;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="file:///C:/Users/LENOVO/Desktop/my%20project/our%20website.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="heading"><span>meet</span> Our Team </h1><br><br>
+        <div class="profiles">
+        <div class="profile">
+            <img src="Prathamesh.png"class="profile-img">
+            <h3 class="user-name">Prathamesh Londhe</h3>
+            <h5>Project Manager</h5>
+            <p>With strong knowledge how to manage project Prathamesh provides all the basic practical skills for our web application as well as ensuring that our technology is up-to date and secure. 
+                In his spare time he likes to dance and  solving Mathematics problem.</p>
+        </div>
+        <div class="profile">
+            <img src="chinmayi1.jpeg" class="profile-img">
+            <h3 class="user-name">Chinmayi Londhe</h3>
+            <h5>Assistant Project Manager</h5>
+            <p>With strong knowledge of creative ideas as well as coding Chinmayi provides all the basic practical skills for our web application as well as ensuring that our technology is up-to date and secure. 
+                she enjoys solving problems . she also enjoy logic and structure of coding and strive to write elegant and efficient code . When she is not coding you’ll find her reading books  or surfing the Internet .</p>
+        </div>
+        <div class="profile">
+            <img src="sushant.jpg" class="profile-img">
+            <h3 class="user-name">Sushant Lokhande</h3>
+            <h5>Front-End Developer</h5>
+            <p>With strong knowledge in Frontend  development Sushant provides all the basic practical skills for our web application as well as ensuring that our technology is up-to date and secure. 
+                In his spare time he enjoys writing poems, shayari, and stories. He also likes to sing.</p>
+        </div>
+        </div><br><br><br>
+        <div class="profiles1">
+        <div class="profile">
+            <img src="vaishnav.png" class="profile-img">
+            <h3 class="user-name">Vaishnav Loya</h3>
+            <h5>Back-End Developer</h5>
+            <p>With strong knowledge in Backend development Vaishnav provides all the basic practical skills for our web application as well as ensuring that our technology is up-to date and secure. 
+                In his spare time he enjoys exploring outdoors, working out , discussing trending topics , about cars and watching movies.</p>
+            </div>
+            <div class="profile">
+                <img src="viraj.jpg" class="profile-img">
+                <h3 class="user-name">Viraj Londhe</h3>
+                <h5>Social Media Director</h5>
+                <p>With strong knowledge in handeling social media handles Viraj provides all the basic practical skills for our web application as well as ensuring that our technology is up-to date and secure. 
+                    In his spare time he enjoys  discussing trending topics, playimg sports and watching movies.</p>
+            </div>
+            <div class="profile">
+                <img src="krushna.jpg" class="profile-img">
+                <h3 class="user-name">Krushna Lohar</h3>
+                <h5>Creative Director</h5>
+                <p>With strong knowledge in creative ideas Krushna provides all the basic practical skills for our web application as well as ensuring that our technology is up-to date and secure. 
+                    In his spare time he enjoys playing criket, reading books and watching web-series.</p>
+            </div>
+            </div>
+        </div>
+    </body>
+    </html>
+

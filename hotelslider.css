@@ -1,0 +1,27 @@
+body {
+    background-color: #17a2b8 !important;
+    display: flex;
+    display: block;
+}
+.main-row{
+    margin-top: 10%;
+}
+.card{
+    cursor: pointer;
+}
+.card img{
+    transform: translateY(-50px);
+    border-radius: 15px;
+    z-index: 1;
+}
+.card .card-body{
+    visibility: hidden;
+    transform: translateY(-150px);
+    height: 0px;
+}
+.card:hover .card-body{
+    visibility: visible;
+    transform:translateY(-50px);
+    transition: .8s;
+    height: auto;
+}
